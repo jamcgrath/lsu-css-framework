@@ -1,0 +1,223 @@
+/* :where has 0 specificity */
+
+:where(html) {
+	--title-1: 5rem;							 	/* 80px */
+	--title-2: 4rem;								/* 64px */
+	--title-3: 3rem;								/* 48px */
+	--title-4: 2.5rem;							/* 40px */
+	--title-5: 2rem;								/* 32px */
+	--title-6: 1.5rem;							/* 24px */
+	--title-7: 1.25rem;							/* 20px */
+	--copy: 1.125rem;								/* 18px */
+	--body: 1rem;										/* 16px */
+	--label: 0.875rem;							/* 14px */
+	--caption: 0.75rem;							/* 12px */
+	--small: 0.625rem;							/* 10px */
+
+  --overline-big: 0.6875rem;			/* 11px */
+	--overline-small: 0.5625rem;		/* 9px  */
+
+	--quote: var(--title-4);
+
+  --title-1-display: var(--title-2);
+	--title-2-display: var(--title-3);
+	--title-3-display: var(--title-4);
+	--title-4-display: var(--title-5);
+	--tilte-5-display: var(--title-6);
+	--title-6-display: var(--title-7);
+
+/* font weight*/
+	--fw100: 100;
+	--fw200: 200;
+	--fw300: 300;
+	--fw400: 400;
+	--fw500: 500;
+	--fw600: 600;
+	--fw700: 700;
+	--fw800: 800;
+	--fw900: 900;
+
+	--thin: var(--fw100);
+	--extra-light: var(--fw200);
+	--light: var(--fw300);
+	--regular: var(--fw400);
+	--medium: var(--fw500);
+	--semi-bold: var(--fw600);
+	--bold: var(--fw700);
+	--extra-bold: var(--fw800);
+	--black: var(--fw900);
+
+/* font family */
+  --inter: 'Inter', sans-serif;
+  --noto-serif: 'Noto Serif', serif;
+}
+
+/* font-family */
+.inter {
+	font-family: var(--inter);
+}
+.noto-serif {
+	font-family: var(--noto-serif);
+}
+.font-inherit {
+	font-family: inherit;
+}
+
+/* font-size */
+.h1,
+.title-1 {
+	font-size: var(--title-1);
+}
+.h2,
+.title-2,
+.title-display-1 {
+	font-size: var(--title-2);
+}
+.h3,
+.title-3,
+.title-display-2 {
+	font-size: var(--title-3);
+}
+.h4,
+.title-4,
+.title-display-3,
+.quote {
+	font-size: var(--title-4);
+}
+.h5,
+.title-5,
+.title-display-4 	{
+	font-size: var(--title-5);
+}
+.h6,
+.title-6,
+.title-display-5 {
+	font-size: var(--title-6);
+}
+.fs-lg,
+.title-7,
+.title-display-6 {
+	font-size: var(--title-7);
+}
+.fs-md,
+.copy	{
+	font-size: var(--copy);
+}
+.fs-normal,
+.body	{
+	font-size: var(--body);
+}
+.fs-sm,
+.label	{
+	font-size: var(--label);
+}
+.fs-xs
+.caption	{
+	font-size: var(--caption);
+}
+.fs-2xs,
+.small	{
+	font-size: var(--small);
+}
+.fs-3xs,
+.overline-big	{
+	font-size: var(--overline-big);
+}
+.fs-4xs,
+.overline-small	{
+	font-size: var(--overline-small);
+}
+
+.fs-scale {
+	--root-fs: 16;
+	--fs-min: 1rem;
+	--fs-max: 2rem;
+	--mq1: 320;
+	--mq2: 800;
+	--min-width: calc(var(--mq1) / var(--root-fs));
+	--max-width: calc(var(--mq2) / var(--root-fs));
+	--slope: calc(
+	(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width)));
+	--y-intersect: calc((calc(var(--min-width) * -1) * var(--slope) + var(--min-fs)));
+	--slope-vw: calc(var(--slope) * 100vw);
+	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
+	--clamp-fs: clamp(calc(var(--min-fs) * 1rem),var(--preferred-val),calc(var(--max-fs) * 1rem));
+}
+
+.fs-inherit {
+	font-size: inherit;
+}
+
+/* font weight*/
+.fw-100,
+.thin {
+	font-weight: var(--thin);
+}
+.fw-200,
+.extra-light {
+	font-weight: var(--extra-light);
+}
+.fw-300,
+.light {
+	font-weight: var(--light);
+}
+.fw-400,
+.regular {
+	font-weight: var(--regular);
+}
+.fw-500
+.medium {
+	font-weight: var(--medium);
+}
+.fw-600,
+.bold {
+	font-weight: var(--bold);
+}
+.fw-700,
+.semi-bold {
+	font-weight: var(--semi-bold);
+}
+.fw-800,
+.extra-bold {
+	font-weight: var(--extra-bold);
+}
+.fw-900,
+.black {
+	font-weight: var(--black);
+}
+.italic {
+	font-style: italic;
+}
+.text-center {
+	text-align: center;
+}
+.text-start	{
+	text-align: start;
+}
+.text-end	{
+	text-align: end;
+}
+.text-left	{
+	text-align: left;
+}
+.text-right	{
+	text-align: right;
+}
+.underline {
+	text-decoration: underline;
+}
+.no-underline {
+	text-decoration: none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.nowrap {
+	white-space: pre;
+}

@@ -1,0 +1,13 @@
+.circle {
+	border-radius: 50%;
+}
+
+.border {
+	--border-width: 1px;
+	--border-color: #000;
+	--border-style: solid;
+
+	border-width: var(--border-width);
+	border-style: var(--border-style);
+	border-color: var(--border-color);
+}
