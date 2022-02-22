@@ -70,13 +70,16 @@
 .align-center	{
 	align-items: center;
 }
-.sm-block {
+.sm-block,
+.block {
 	display: block;
 }
-.sm-inline-block {
+.sm-inline-block,
+.inline-block {
 	display: inline-block;
 }
-.sm-inline {
+.sm-inline,
+.inline {
 	display: inline;
 }
 
