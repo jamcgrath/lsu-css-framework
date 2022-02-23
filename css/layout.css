@@ -48,7 +48,7 @@
  .sm-justify-center {
 	justify-content: center;
 }
-.justsfty-between,
+.justify-between,
 .sm-justify-between {
 	justify-content: space-between;
 }
@@ -81,6 +81,22 @@
 .sm-inline,
 .inline {
 	display: inline;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.flex-3 {
+	flex: 3;
+}
+
+.flex-4 {
+	flex: 4;
 }
 
 /* grid */
