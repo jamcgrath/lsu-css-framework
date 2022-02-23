@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jamcgrath', // Usually your GitHub org/user name.
-  projectName: 'css framework', // Usually your repo name.
+  projectName: 'css-framework', // Usually your repo name.
 
   presets: [
     [
