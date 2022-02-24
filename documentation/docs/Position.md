@@ -1,0 +1,7 @@
+| Class name | Value              |
+| ---------- | ------------------ |
+| .relative  | position: relative |
+| .absolute  | position: absolute |
+| .fixed     | position: fixed    |
+| .sticky    | position: sticky   |
+| .static    | position: static   |
