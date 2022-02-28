@@ -127,6 +127,7 @@
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+
 /* medium */
 @media (min-width: 40em) {
 	.md-flex {

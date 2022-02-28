@@ -41,7 +41,6 @@ note about sm- md- lg-
 
 | Class name | Value |
 | ---------- | ----- |
-
 |.px-0 | padding-left: 0;<br/> padding-right: 0; |
 |.px-1 | padding-left: var(--space-1p);<br/> padding-right: var(--space-1p); |
 |.px-2 | padding-left: var(--space-2p);<br/> padding-right: var(--space-2p); |
@@ -71,3 +70,5 @@ note about sm- md- lg-
 ### em
 
 <!-- note about sm- md- lg- -->
+
+## gap
