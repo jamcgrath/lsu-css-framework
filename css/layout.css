@@ -1,3 +1,5 @@
+/* split out to seperate files */
+
 /* flex */
 .flex
 .sm-flex {
@@ -81,6 +83,12 @@
 .sm-inline,
 .inline {
 	display: inline;
+}
+
+.hidden,
+.sm-hidden,
+hidden {
+	display: none;
 }
 
 .flex-1 {
