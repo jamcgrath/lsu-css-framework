@@ -31,7 +31,9 @@
   --color-success: #00c48c;
   --color-success-light: #d9f6ee;
   --color-alert: #f1b422;
+	--color-alert-light: #FFF8E7;
   --color-warning: #ffa26b;
+	--color-warning-light: #FFF1E9;
   --color-error: #ff647c;
   --color-error-light: #ffe8eb;
   --color-error-semi-light: #efdddf;
