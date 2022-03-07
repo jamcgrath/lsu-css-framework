@@ -17,7 +17,7 @@
 	border-radius: 120px;
 }
 
-:where(html) {
+:root {
 	--border-width: 1px;
 	--border-color: #000;
 	--border-style: solid;

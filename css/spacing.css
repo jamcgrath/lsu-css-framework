@@ -1,4 +1,4 @@
-:where(html) {
+:root {
 	--base-fs: 16;
 	--base-space:4;
 	--space: 0;

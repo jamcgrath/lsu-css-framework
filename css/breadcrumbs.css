@@ -1,4 +1,4 @@
-:where(html) {
+:root {
 	--bc-color: var(--color-black);
 	--bc-bg: var(--color-white);
 	--bc-padding-y: 0.25rem;

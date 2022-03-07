@@ -1,4 +1,4 @@
-:where(button, .btn) {
+:root {
 	--btn-padding-x: var(--space-2);
 	--btn-padding-y: var(--space-3);
 	--btn-border-radius: 100px;

@@ -1,6 +1,6 @@
 /* :where has 0 specificity */
 
-:where(html) {
+:root {
 	--title-1: 5rem;							 	/* 80px */
 	--title-2: 4rem;								/* 64px */
 	--title-3: 3rem;								/* 48px */

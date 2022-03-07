@@ -1,4 +1,4 @@
-:where(html) {
+:root {
 	--control-font-size:var(--label);
 	--control-bg: var(--color-gray-200);
 	--control-color: var(--color-gray-600);

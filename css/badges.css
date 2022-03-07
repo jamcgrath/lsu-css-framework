@@ -1,4 +1,4 @@
-:where(html, .badge) {
+:root {
 	--badge-color: var(--color-white);
 	--badge-bg: var(--color-black);
 	--badge-font-size: var(--overline-small);
