@@ -1,4 +1,6 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
+	select HTML5 Boilerplate css (H5BP)
+*/
 
 /* Document
    ========================================================================== */
@@ -48,12 +50,24 @@ h1 {
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
+ * + A better looking default horizontal rule from H5BP
+
  */
 
 hr {
+	--hr-color: #ccc;
+	--hr-margin-y: 0;
+	--hr-margin-x: 1em;
+	--hr-width: 1px;
+
   box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
   overflow: visible; /* 2 */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: var(--hr-width) solid var(--hr-color);
+  margin: var(--hr-margin-x) var(--hr-margin-y);
+  padding: 0;
 }
 
 /* Text-level semantics
@@ -183,12 +197,15 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
- * Correct the padding in Firefox.
+
+/*
+ * Remove default fieldset styles. From H5BP
  */
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /**
@@ -217,10 +234,14 @@ progress {
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
+ * Allow only vertical resizing of textareas.
+
  */
 
 textarea {
   overflow: auto;
+	resize: vertical;
+
 }
 
 /**
@@ -277,4 +298,95 @@ details {
 
 summary {
   display: list-item;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* Utilities
+   ========================================================================== */
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/* Break out of container to be fullwidth */
+.fullwidth {
+	--fullwidth-x: 50%;
+	--fullwidth-left: var(--fullwidth-x);
+	--fullwidth-right: var(--fullwidth-x);
+
+	--fullwidth-margin: -50vw;
+	--fullwidth-margin-left: var(--full-width-margin);
+	--fullwidth-margin-right: var(--full-width-margin);
+
+  width: 100vw;
+  position: relative;
+  left: var(--fullwidth-left);
+  right: var(--fullwidth-right);
+  margin-left: var(--fullwidth-margin-left);
+  margin-right: var(--fullwidth-margin-right);
+}
+
+/* Pointer Events */
+.pointer-events-none	{
+	pointer-events: none;
+}
+.pointer-events-auto	{
+	pointer-events: auto;
+}
+
+/* cursors */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-grab {
+  cursor: grab;
 }
