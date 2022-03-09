@@ -1,6 +1,4 @@
-.pointer	{
-	cursor: pointer;
-}
+/* pointer events */
 .pointer-events-none	{
 	pointer-events: none;
 }
@@ -8,6 +6,15 @@
 	pointer-events: auto;
 }
 
+/* cursors */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-grab {
+  cursor: grab;
+}
+
+/* fullwidth */
 .fullwidth {
   width: 100vw;
   position: relative;
@@ -18,7 +25,6 @@
 }
 
 /*
-   From H5BP
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  *
@@ -57,21 +63,6 @@
   width: auto;
 }
 
-/* cursors */
-.cursor-pointer {
-  cursor: pointer;
-}
-.cursor-grab {
-  cursor: grab;
-}
-
-/* pointers */
-.pointer-none {
-  pointer-events: none;
-}
-.pointer-auto {
-  pointer-events: auto;
-}
 
 /* h5bp borrowed styles */
 
