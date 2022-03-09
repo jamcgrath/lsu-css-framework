@@ -56,3 +56,19 @@
   white-space: inherit;
   width: auto;
 }
+
+/* cursors */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-grab {
+  cursor: grab;
+}
+
+/* pointers */
+.pointer-none {
+  pointer-events: none;
+}
+.pointer-auto {
+  pointer-events: auto;
+}
