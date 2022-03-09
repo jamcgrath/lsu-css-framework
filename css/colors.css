@@ -54,26 +54,35 @@
 	color: var(--color-brand-canary);
 }
 .bg-mint {
-	color: var(--color-brand-mint);
+	background-color: var(--color-brand-mint);
 }
 .bg-deep-blue {
-	color: var(--color-brand-deep-blue);
+	background-color: var(--color-brand-deep-blue);
 }
 .bg-hot-pink {
-	color: var(--color-brand-pink);
+	background-color: var(--color-brand-pink);
 }
 .bg-canary {
-	color: var(--color-brand-canary);
+	background-color: var(--color-brand-canary);
 }
 
 /* courses  */
 .courses-green	{
-	background-color: var(--color-courses-green);
+	color: var(--color-courses-green);
 }
 .courses-purple	{
-	background-color: var(--color-courses-purple);
+	color: var(--color-courses-purple);
 }
 .courses-mint	{
+	color: var(--color-courses-mint);
+}
+.bg-courses-green	{
+	background-color: var(--color-courses-green);
+}
+.bg-courses-purple	{
+	background-color: var(--color-courses-purple);
+}
+.bg-courses-mint	{
 	background-color: var(--color-courses-mint);
 }
 
@@ -105,31 +114,31 @@
 .error-semi-light {
 	color: var(--color-error-semi-light);
 }
-.info {
+.bg-info {
 	background-color: var(--color-info);
 }
-.info-light {
+.bg-info-light {
 	background-color: var(--color-info-light);
 }
-.success {
+.bg-success {
 	background-color: var(--color-success);
 }
-.success-light {
+.bg-success-light {
 	background-color: var(--color-success-light);
 }
-.alert {
+.bg-alert {
 	background-color: var(--color-alert);
 }
-.warning {
+.bg-warning {
 	background-color: var(--color-warning);
 }
-.error {
+.bg-error {
 	background-color: var(--color-error);
 }
-.error-light {
+.bg-error-light {
 	background-color: var(--color-error-light);
 }
-.error-semi-light {
+.bg-error-semi-light {
 	background-color: var(--color-error-semi-light);
 }
 
