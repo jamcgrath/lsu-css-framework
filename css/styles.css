@@ -359,20 +359,12 @@ video {
 
 /* Break out of container to be fullwidth */
 .fullwidth {
-	--fullwidth-x: 50%;
-	--fullwidth-left: var(--fullwidth-x);
-	--fullwidth-right: var(--fullwidth-x);
-
-	--fullwidth-margin: -50vw;
-	--fullwidth-margin-left: var(--full-width-margin);
-	--fullwidth-margin-right: var(--full-width-margin);
-
-  width: 100vw;
+	width: 100vw;
   position: relative;
-  left: var(--fullwidth-left);
-  right: var(--fullwidth-right);
-  margin-left: var(--fullwidth-margin-left);
-  margin-right: var(--fullwidth-margin-right);
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 /* Pointer Events */
