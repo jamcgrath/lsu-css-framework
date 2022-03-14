@@ -1,32 +1,31 @@
 :root {
 	--base-fs: 16;
-	--base-space:4;
+	--base-space: 4;
 	--space: 0;
 	--em-px: 16;
 	--em-base: 16;
 	--rem-px: 16;
 	--rem-base: 16;
 
-	--space-1: calc( (var(--base-space) * 1) / var(--base-fs) );
-	--space-2: calc( (var(--base-space) * 2) / var(--base-fs) );
-	--space-3: calc( (var(--base-space) * 3) / var(--base-fs) );
-	--space-4: calc( (var(--base-space) * 4) / var(--base-fs) );
-	--space-5: calc( (var(--base-space) * 5) / var(--base-fs) );
-	--space-6: calc( (var(--base-space) * 6) / var(--base-fs) );
-	--space-7: calc( (var(--base-space) * 7) / var(--base-fs) );
-	--space-8: calc( (var(--base-space) * 8) / var(--base-fs) );
-	--space-9: calc( (var(--base-space) * 9) / var(--base-fs) );
-	--space-10: calc( (var(--base-space) * 10) / var(--base-fs) );
-	--space-11: calc( (var(--base-space) * 11) / var(--base-fs) );
-	--space-12: calc( (var(--base-space) * 12) / var(--base-fs) );
-	--space-13: calc( (var(--base-space) * 13) / var(--base-fs) );
-	--space-14: calc( (var(--base-space) * 14) / var(--base-fs) );
-	--space-15: calc( (var(--base-space) * 15) / var(--base-fs) );
-	--space-16: calc( (var(--base-space) * 16) / var(--base-fs) );
+	--space-1: calc((var(--base-space) * 1) / var(--base-fs) * 1rem);
+	--space-2: calc((var(--base-space) * 2) / var(--base-fs) * 1rem);
+	--space-3: calc((var(--base-space) * 3) / var(--base-fs) * 1rem);
+	--space-4: calc((var(--base-space) * 4) / var(--base-fs) * 1rem);
+	--space-5: calc((var(--base-space) * 5) / var(--base-fs) * 1rem);
+	--space-6: calc((var(--base-space) * 6) / var(--base-fs) * 1rem);
+	--space-7: calc((var(--base-space) * 7) / var(--base-fs) * 1rem);
+	--space-8: calc((var(--base-space) * 8) / var(--base-fs) * 1rem);
+	--space-9: calc((var(--base-space) * 9) / var(--base-fs) * 1rem);
+	--space-10: calc((var(--base-space) * 10) / var(--base-fs) * 1rem);
+	--space-11: calc((var(--base-space) * 11) / var(--base-fs) * 1rem);
+	--space-12: calc((var(--base-space) * 12) / var(--base-fs) * 1rem);
+	--space-13: calc((var(--base-space) * 13) / var(--base-fs) * 1rem);
+	--space-14: calc((var(--base-space) * 14) / var(--base-fs) * 1rem);
+	--space-15: calc((var(--base-space) * 15) / var(--base-fs) * 1rem);
+	--space-16: calc((var(--base-space) * 16) / var(--base-fs) * 1rem);
 
-	--em: calc( var(--em-px) / var(--em-base) * 1em);
-	--rem: calc( var(--rem-px) / var(--rem-base) * 1rem);
-
+	--em: calc(var(--em-px) / var(--em-base) * 1em);
+	--rem: calc(var(--rem-px) / var(--rem-base) * 1rem);
 }
 
 .gap {
@@ -35,150 +34,150 @@
 	gap: var(--gap-x) var(--gap-y);
 }
 .gap-1 {
- gap: var(--space-1);
+	gap: var(--space-1);
 }
 .gap-2 {
- gap: var(--space-2);
+	gap: var(--space-2);
 }
 .gap-3 {
- gap: var(--space-3);
+	gap: var(--space-3);
 }
 .gap-4 {
- gap: var(--space-4);
+	gap: var(--space-4);
 }
 .gap-5 {
- gap: var(--space-5);
+	gap: var(--space-5);
 }
 .gap-6 {
- gap: var(--space-6);
+	gap: var(--space-6);
 }
 .gap-7 {
- gap: var(--space-7);
+	gap: var(--space-7);
 }
 .gap-8 {
- gap: var(--space-8);
+	gap: var(--space-8);
 }
 .gap-9 {
- gap: var(--space-9);
+	gap: var(--space-9);
 }
 .gap-10 {
- gap: var(--space-10);
+	gap: var(--space-10);
 }
 .gap-11 {
- gap: var(--space-11);
+	gap: var(--space-11);
 }
 .gap-12 {
- gap: var(--space-12);
+	gap: var(--space-12);
 }
 .gap-13 {
- gap: var(--space-13);
+	gap: var(--space-13);
 }
 .gap-14 {
- gap: var(--space-14);
+	gap: var(--space-14);
 }
 .gap-15 {
- gap: var(--space-15);
+	gap: var(--space-15);
 }
 .gap-16 {
- gap: var(--space-16);
+	gap: var(--space-16);
 }
 
 .gap-x-1 {
- gap: 0 var(--space-1)
+	gap: 0 var(--space-1);
 }
 .gap-x-2 {
- gap: 0 var(--space-2)
+	gap: 0 var(--space-2);
 }
 .gap-x-3 {
- gap: 0 var(--space-3)
+	gap: 0 var(--space-3);
 }
 .gap-x-4 {
- gap: 0 var(--space-4)
+	gap: 0 var(--space-4);
 }
 .gap-x-5 {
- gap: 0 var(--space-5)
+	gap: 0 var(--space-5);
 }
 .gap-x-6 {
- gap: 0 var(--space-6)
+	gap: 0 var(--space-6);
 }
 .gap-x-7 {
- gap: 0 var(--space-7)
+	gap: 0 var(--space-7);
 }
 .gap-x-8 {
- gap: 0 var(--space-8)
+	gap: 0 var(--space-8);
 }
 .gap-x-9 {
- gap: 0 var(--space-9)
+	gap: 0 var(--space-9);
 }
 .gap-x-10 {
- gap: 0 var(--space-10)
+	gap: 0 var(--space-10);
 }
 .gap-x-11 {
- gap: 0 var(--space-11)
+	gap: 0 var(--space-11);
 }
 .gap-x-12 {
- gap: 0 var(--space-12)
+	gap: 0 var(--space-12);
 }
 .gap-x-13 {
- gap: 0 var(--space-13)
+	gap: 0 var(--space-13);
 }
 .gap-x-14 {
- gap: 0 var(--space-14)
+	gap: 0 var(--space-14);
 }
 .gap-x-15 {
- gap: 0 var(--space-15)
+	gap: 0 var(--space-15);
 }
 .gap-x-16 {
- gap: 0 var(--space-16)
+	gap: 0 var(--space-16);
 }
 
 .gap-y-1 {
- gap: var(--space-1) 0;
+	gap: var(--space-1) 0;
 }
 .gap-y-2 {
- gap: var(--space-2) 0;
+	gap: var(--space-2) 0;
 }
 .gap-y-3 {
- gap: var(--space-3) 0;
+	gap: var(--space-3) 0;
 }
 .gap-y-4 {
- gap: var(--space-4) 0;
+	gap: var(--space-4) 0;
 }
 .gap-y-5 {
- gap: var(--space-5) 0;
+	gap: var(--space-5) 0;
 }
 .gap-y-6 {
- gap: var(--space-6) 0;
+	gap: var(--space-6) 0;
 }
 .gap-y-7 {
- gap: var(--space-7) 0;
+	gap: var(--space-7) 0;
 }
 .gap-y-8 {
- gap: var(--space-8) 0;
+	gap: var(--space-8) 0;
 }
 .gap-y-9 {
- gap: var(--space-9) 0;
+	gap: var(--space-9) 0;
 }
 .gap-y-10 {
- gap: var(--space-10) 0;
+	gap: var(--space-10) 0;
 }
 .gap-y-11 {
- gap: var(--space-11) 0;
+	gap: var(--space-11) 0;
 }
 .gap-y-12 {
- gap: var(--space-12) 0;
+	gap: var(--space-12) 0;
 }
 .gap-y-13 {
- gap: var(--space-13) 0;
+	gap: var(--space-13) 0;
 }
 .gap-y-14 {
- gap: var(--space-14) 0;
+	gap: var(--space-14) 0;
 }
 .gap-y-15 {
- gap: var(--space-15) 0;
+	gap: var(--space-15) 0;
 }
 .gap-y-16 {
- gap: var(--space-16) 0;
+	gap: var(--space-16) 0;
 }
 
 /* margin  */
@@ -536,7 +535,6 @@
 .sm-pb-rem {
 	padding-bottom: var(--rem);
 }
-
 
 @media (min-width: 40em) {
 	.md-m-auto {
