@@ -2,7 +2,7 @@
 	--badge-color: var(--color-white);
 	--badge-bg: var(--color-black);
 	--badge-font-size: var(--overline-small);
-	--badge-font-weight: var(--fw-700);
+	--badge-font-weight: var(--fw700);
 	--badge-font-family: var(--inter);
 	--badge-line-height: 1.3;
 	--badge-text-transform: uppercase;
