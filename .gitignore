@@ -2,7 +2,7 @@
 /node_modules
 
 #build folder
-/public
+/public/*.css
 
 # Misc
 .DS_Store

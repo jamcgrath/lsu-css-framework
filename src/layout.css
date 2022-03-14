@@ -4,8 +4,7 @@
 */
 
 /* flex */
-.flex
-.sm-flex {
+.flex .sm-flex {
 	display: flex;
 }
 .flex-column,
@@ -46,11 +45,11 @@
 	justify-content: flex-start;
 }
 .justify-end,
-.sm-justify-end 	{
+.sm-justify-end {
 	justify-content: flex-end;
 }
 .justify-center,
- .sm-justify-center {
+.sm-justify-center {
 	justify-content: center;
 }
 .justify-between,
@@ -62,7 +61,7 @@
 	justify-content: space-around;
 }
 .justify-evenly,
-.sm-justify-evenly 	{
+.sm-justify-evenly {
 	justify-content: space-evenly;
 }
 .align-start,
@@ -72,7 +71,7 @@
 .align-end {
 	align-items: flex-end;
 }
-.align-center	{
+.align-center {
 	align-items: center;
 }
 .sm-block,
@@ -111,19 +110,25 @@ hidden {
 }
 
 /* grid */
-:where(html) {
+:root {
 	--grid-min: 0;
 	--grid-max: 1fr;
-	--repeat: auto-fit
+	--grid-repeat: auto-fit;
 }
 .grid {
 	display: grid;
 }
 .grid-column {
-	grid-template-columns: repeat(var(--repeat), minmax(var(--grid-min), var(--grid-max)));
+	grid-template-columns: repeat(
+		var(--grid-repeat),
+		minmax(var(--grid-min), var(--grid-max))
+	);
 }
 .grid-row {
-	grid-template-rows: repeat(var(--repeat), minmax(var(--grid-min), var(--grid-max)));
+	grid-template-rows: repeat(
+		var(--grid-repeat),
+		minmax(var(--grid-min), var(--grid-max))
+	);
 }
 .grid-column-1 {
 	grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -138,11 +143,10 @@ hidden {
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-
 /* medium */
 @media (min-width: 40em) {
 	.md-flex {
-		display:  flex;
+		display: flex;
 	}
 	.md-flex-column {
 		flex-direction: column;
@@ -225,7 +229,7 @@ hidden {
 /* large */
 @media (min-width: 64em) {
 	.lg-flex {
-		display:  flex;
+		display: flex;
 	}
 	.lg-flex-column {
 		flex-direction: column;
