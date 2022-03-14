@@ -1,32 +1,32 @@
 /* :where has 0 specificity */
 
 :root {
-	--title-1: 5rem;							 	/* 80px */
-	--title-2: 4rem;								/* 64px */
-	--title-3: 3rem;								/* 48px */
-	--title-4: 2.5rem;							/* 40px */
-	--title-5: 2rem;								/* 32px */
-	--title-6: 1.5rem;							/* 24px */
-	--title-7: 1.25rem;							/* 20px */
-	--copy: 1.125rem;								/* 18px */
-	--body: 1rem;										/* 16px */
-	--label: 0.875rem;							/* 14px */
-	--caption: 0.75rem;							/* 12px */
-	--small: 0.625rem;							/* 10px */
+	--title-1: 5rem; /* 80px */
+	--title-2: 4rem; /* 64px */
+	--title-3: 3rem; /* 48px */
+	--title-4: 2.5rem; /* 40px */
+	--title-5: 2rem; /* 32px */
+	--title-6: 1.5rem; /* 24px */
+	--title-7: 1.25rem; /* 20px */
+	--copy: 1.125rem; /* 18px */
+	--body: 1rem; /* 16px */
+	--label: 0.875rem; /* 14px */
+	--caption: 0.75rem; /* 12px */
+	--small: 0.625rem; /* 10px */
 
-  --overline-big: 0.6875rem;			/* 11px */
-	--overline-small: 0.5625rem;		/* 9px  */
+	--overline-big: 0.6875rem; /* 11px */
+	--overline-small: 0.5625rem; /* 9px  */
 
 	--quote: var(--title-4);
 
-  --title-1-display: var(--title-2);
+	--title-1-display: var(--title-2);
 	--title-2-display: var(--title-3);
 	--title-3-display: var(--title-4);
 	--title-4-display: var(--title-5);
 	--tilte-5-display: var(--title-6);
 	--title-6-display: var(--title-7);
 
-/* font weight*/
+	/* font weight*/
 	--fw100: 100;
 	--fw200: 200;
 	--fw300: 300;
@@ -47,9 +47,9 @@
 	--extra-bold: var(--fw800);
 	--black: var(--fw900);
 
-/* font family */
-  --inter: 'Inter', sans-serif;
-  --noto-serif: 'Noto Serif', serif;
+	/* font family */
+	--inter: "Inter", sans-serif;
+	--noto-serif: "Noto Serif", serif;
 }
 
 /* font-family */
@@ -86,7 +86,7 @@
 }
 .h5,
 .title-5,
-.title-display-4 	{
+.title-display-4 {
 	font-size: var(--title-5);
 }
 .h6,
@@ -100,31 +100,30 @@
 	font-size: var(--title-7);
 }
 .fs-md,
-.copy	{
+.copy {
 	font-size: var(--copy);
 }
 .fs-normal,
-.body	{
+.body {
 	font-size: var(--body);
 }
 .fs-sm,
-.label	{
+.label {
 	font-size: var(--label);
 }
-.fs-xs
-.caption	{
+.fs-xs .caption {
 	font-size: var(--caption);
 }
 .fs-2xs,
-.small	{
+.small {
 	font-size: var(--small);
 }
 .fs-3xs,
-.overline-big	{
+.overline-big {
 	font-size: var(--overline-big);
 }
 .fs-4xs,
-.overline-small	{
+.overline-small {
 	font-size: var(--overline-small);
 }
 
@@ -137,11 +136,18 @@
 	--min-width: calc(var(--mq1) / var(--root-fs));
 	--max-width: calc(var(--mq2) / var(--root-fs));
 	--slope: calc(
-	(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width)));
-	--y-intersect: calc((calc(var(--min-width) * -1) * var(--slope) + var(--min-fs)));
+		(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width))
+	);
+	--y-intersect: calc(
+		(calc(var(--min-width) * -1) * var(--slope) + var(--min-fs))
+	);
 	--slope-vw: calc(var(--slope) * 100vw);
 	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
-	--clamp-fs: clamp(calc(var(--min-fs) * 1rem),var(--preferred-val),calc(var(--max-fs) * 1rem));
+	--clamp-fs: clamp(
+		calc(var(--min-fs) * 1rem),
+		var(--preferred-val),
+		calc(var(--max-fs) * 1rem)
+	);
 }
 
 .fs-inherit {
@@ -165,7 +171,7 @@
 .regular {
 	font-weight: var(--regular);
 }
-.fw-500
+.fw-500,
 .medium {
 	font-weight: var(--medium);
 }
@@ -191,16 +197,16 @@
 .text-center {
 	text-align: center;
 }
-.text-start	{
+.text-start {
 	text-align: start;
 }
-.text-end	{
+.text-end {
 	text-align: end;
 }
-.text-left	{
+.text-left {
 	text-align: left;
 }
-.text-right	{
+.text-right {
 	text-align: right;
 }
 .underline {
