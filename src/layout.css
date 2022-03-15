@@ -111,8 +111,10 @@ hidden {
 
 /* grid */
 :root {
-	--grid-min: 0;
-	--grid-max: 1fr;
+	--grid-col-min: 0;
+	--grid-col-max: 1fr;
+	--grid-row-min: 1fr;
+	--grid-row-max: 1fr;
 	--grid-repeat: auto-fit;
 }
 .grid {
@@ -121,13 +123,13 @@ hidden {
 .grid-column {
 	grid-template-columns: repeat(
 		var(--grid-repeat),
-		minmax(var(--grid-min), var(--grid-max))
+		minmax(var(--grid-col-min), var(--grid-col-max))
 	);
 }
 .grid-row {
 	grid-template-rows: repeat(
 		var(--grid-repeat),
-		minmax(var(--grid-min), var(--grid-max))
+		minmax(var(--grid-row-min), var(--grid-row-max))
 	);
 }
 .grid-column-1 {
