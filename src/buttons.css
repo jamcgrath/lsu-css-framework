@@ -6,7 +6,9 @@
 	--btn-border-color: var(-color-brand-deep-blue);
 	--btn-border-style: solid;
 	--btn-border-width: 1px;
-	--btn-border: var(var(--btn-border-width) var(--btn-border-style) var(--btn-border-color));
+	--btn-border: var(
+		var(--btn-border-width) var(--btn-border-style) var(--btn-border-color)
+	);
 	--btn-bg: transparent;
 	--btn-text-transform: uppercase;
 	--btn-font-size: var(--overline-big);
@@ -17,7 +19,8 @@
 	--btn-line-height: 1.09;
 }
 
-.btn{
+.btn,
+button {
 	display: inline-flex;
 	align-items: center;
 	padding: var(--btn-padding-x) var(--btn-padding-y);
