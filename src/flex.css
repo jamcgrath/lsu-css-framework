@@ -1,4 +1,5 @@
-.flex .sm-flex {
+.flex,
+.sm-flex {
 	display: flex;
 }
 .flex-column,
