@@ -48,7 +48,7 @@
 	color: var(--color-brand-deep-blue);
 }
 .hot-pink {
-	color: var(--color-brand-pink);
+	color: var(--color-brand-hot-pink);
 }
 .canary {
 	color: var(--color-brand-canary);
@@ -60,7 +60,7 @@
 	background-color: var(--color-brand-deep-blue);
 }
 .bg-hot-pink {
-	background-color: var(--color-brand-pink);
+	background-color: var(--color-brand-hot-pink);
 }
 .bg-canary {
 	background-color: var(--color-brand-canary);
