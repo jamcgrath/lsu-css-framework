@@ -64,6 +64,45 @@
 
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'Inter';
+  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2') format('woff2 supports variations'),
+    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2') format('woff2-variations');
+  font-weight: 400 900;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Noto Serif TC', serif;
+  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff2') format('woff2'),
+    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Noto Serif TC', serif;
+  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff2') format('woff2'),
+    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif TC', serif;
+  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff2') format('woff2'),
+    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff') format('woff');
+  font-weight: black;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* font-family */
 .inter {
 	font-family: var(--inter);
