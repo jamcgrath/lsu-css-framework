@@ -1,19 +1,19 @@
 :root {
-	--title-1: 5rem; /* 80px */
-	--title-2: 4rem; /* 64px */
-	--title-3: 3rem; /* 48px */
-	--title-4: 2.5rem; /* 40px */
-	--title-5: 2rem; /* 32px */
-	--title-6: 1.5rem; /* 24px */
-	--title-7: 1.25rem; /* 20px */
-	--copy: 1.125rem; /* 18px */
-	--body: 1rem; /* 16px */
-	--label: 0.875rem; /* 14px */
-	--caption: 0.75rem; /* 12px */
-	--small: 0.625rem; /* 10px */
+	--title-1: 5rem;							/* 80px */
+	--title-2: 4rem;							/* 64px */
+	--title-3: 3rem;							/* 48px */
+	--title-4: 2.5rem;						/* 40px */
+	--title-5: 2rem; 							/* 32px */
+	--title-6: 1.5rem;						/* 24px */
+	--title-7: 1.25rem;						/* 20px */
+	--copy: 1.125rem;							/* 18px */
+	--body: 1rem;									/* 16px */
+	--label: 0.875rem;						/* 14px */
+	--caption: 0.75rem;						/* 12px */
+	--overline-big: 0.6875rem;		/* 11px */
+	--small: 0.625rem;						/* 10px */
+	--overline-small: 0.5625rem;	/* 9px  */
 
-	--overline-big: 0.6875rem; /* 11px */
-	--overline-small: 0.5625rem; /* 9px  */
 
 	--quote: var(--title-4);
 
