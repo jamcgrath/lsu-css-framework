@@ -34,6 +34,7 @@ button {
 	line-height: var(--btn-line-height);
 	letter-spacing: 2px;
 	text-decoration: var(--btn-text-decoration);
+	cursor: pointer;
 }
 
 .btn-small {
