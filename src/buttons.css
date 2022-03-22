@@ -17,6 +17,7 @@
 	--btn-text-decoration: none;
 	--btn-box-shadow: none;
 	--btn-line-height: 1.09;
+	--btn-cursor: pointer;
 }
 
 .btn,
@@ -34,7 +35,7 @@ button {
 	line-height: var(--btn-line-height);
 	letter-spacing: 2px;
 	text-decoration: var(--btn-text-decoration);
-	cursor: pointer;
+	cursor: var(--btn-cursor);
 }
 
 .btn-small {

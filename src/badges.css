@@ -11,6 +11,7 @@
 	--badge-padding-y: var(--space-2);
 	--badge-border-radius: 8px;
 	--badge-text-decoration: none;
+	--badge-cursor: pointer;
 }
 
 .badge {
@@ -24,7 +25,7 @@
 	padding: var(--badge-padding-x) var(--badge-padding-y);
 	border-radius: var(--badge-border-radius);
 	text-decoration: var(--badge-text-decoration);
-	cursor: pointer; 
+	cursor: var(--badge-cursor); 
 }
 .badge-small {
 	--badge-line-height: 1.3;
