@@ -42,3 +42,51 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .docs-circle {
 	--circle-width: 50px;
 }
+
+:root {
+	--bc-color: var(--color-black);
+	--bc-bg: var(--color-white);
+	--bc-padding-y: 0.25rem;
+	--bc-padding-x: 0.75rem;
+	--bc-border-radius: 0.5rem;
+	--bc-font-size: var(--body);
+	--bc-text-decoration: none;
+}
+
+.breadcrumb,
+.breadcrumb-dark,
+.breadcrumb-disabled {
+	list-style: none;
+	font-size: var(--bc-font-size) !important;
+	padding: var(--bc-padding-y) var(--bc-padding-x) !important;
+	border-radius: var(--bc-border-radius) !important;
+	background-color: var(--bc-bg) !important;
+	color: var(--bc-color) !important;
+	text-align: center !important;
+	text-decoration: var(--bc-text-decoration) !important;
+}
+.breadcrumb-dark {
+	--bc-bg: var(--color-gray-900) !important;
+	--bc-color: var(--color-white) !important;
+}
+
+.breadcrumb:hover,
+.breadcrumb-dark:hover {
+	--bc-color: var(--color-state-hover) !important;
+}
+.breadcrumb:focus {
+	--bc-color: var(--color-white) !important;
+	--bc-bg: var(--color-brand-mint) !important;
+}
+.breadcrumb-dark:focus {
+	--bc-color: var(--color-gray-900) !important;
+	--bc-bg: var(--color-brand-mint) !important;
+}
+
+.breadcrumb-disabled {
+	--bc-color: var(--color-gray-600) !important;
+	--bc-bg: var(--color-gray-300) !important;
+}
+.breadcrumb-disabled:hover {
+	--bc-color: var(--color-gray-600) !important;
+}
