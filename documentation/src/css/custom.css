@@ -93,3 +93,15 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 a.btn {
 	text-decoration: none !important;
 }
+.docs-state-hover {
+	--color-state-hover: #7d8cff;
+	background: var(--color-state-hover);
+}
+.docs-state-pressed {
+	--color-state-pressed: #5b6ae8;
+	background: var(--color-state-pressed);
+}
+.docs-state-motion {
+	--color-state-motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
+	background: var(--color-state-motion);
+}
