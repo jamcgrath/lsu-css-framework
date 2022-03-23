@@ -3,6 +3,7 @@
 	--border-color: #000;
 	--border-style: solid;
 }
+
 .border {
 	border-width: var(--border-width);
 	border-style: var(--border-style);
