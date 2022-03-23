@@ -5313,8 +5313,17 @@ html:focus-within {
 	border-bottom: var(--border-width) var(--border-style) var(--border-color);
 }
 
+:root {
+	--circle-width: ;
+}
+
 .circle {
 	border-radius: 50%;
+	aspect-ratio: 1;
+	width:  ;
+	width: var(--circle-width);
+	height:  ;
+	height: var(--circle-width);
 }
 
 .br-8 {
