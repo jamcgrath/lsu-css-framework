@@ -38,7 +38,12 @@
 	--color-error-light: #ffe8eb;
 	--color-error-semi-light: #efdddf;
 }
-
+.white {
+	color:var(--color-white);
+}
+.black {
+	color: var(--color-black);
+}
 /* brand */
 .mint {
 	color: var(--color-brand-mint);
