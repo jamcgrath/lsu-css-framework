@@ -1,5 +1,11 @@
+:root {
+	--circle-width: ;
+}
 .circle {
 	border-radius: 50%;
+	aspect-ratio: 1;
+	width: var(--circle-width);
+	height: var(--circle-width);
 }
 .br-8 {
 	border-radius: 8px;
