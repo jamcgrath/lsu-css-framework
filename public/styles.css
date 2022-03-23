@@ -5350,8 +5350,8 @@ html:focus-within {
 	--btn-padding-x: var(--space-2);
 	--btn-padding-y: var(--space-3);
 	--btn-border-radius: 100px;
-	--btn-color: var(-color-brand-deep-blue);
-	--btn-border-color: var(-color-brand-deep-blue);
+	--btn-color: var(--color-brand-deep-blue);
+	--btn-border-color: var(--color-brand-deep-blue);
 	--btn-border-style: solid;
 	--btn-border-width: 1px;
 	--btn-border: var(
@@ -5372,13 +5372,16 @@ html:focus-within {
 button {
 	display: inline-flex;
 	align-items: center;
+	justify-content: center;
 	padding: calc((4 * 2) / 16 * 1rem) calc((4 * 3) / 16 * 1rem);
 	padding: var(--btn-padding-x) var(--btn-padding-y);
-	border:  solid var(-color-brand-deep-blue);
-	border: var(--btn-border);
+	border: 1px hsl(240, 37%, 24%)
+		solid;
+	border: var(--btn-border-width) var(--btn-border-color)
+		var(--btn-border-style);
 	border-radius: 100px;
 	border-radius: var(--btn-border-radius);
-	color: var(-color-brand-deep-blue);
+	color: hsl(240, 37%, 24%);
 	color: var(--btn-color);
 	background-color: transparent;
 	background-color: var(--btn-bg);
@@ -5409,7 +5412,7 @@ button {
 }
 
 .btn-large {
-	--btn-padding-x: var(--space-10);
+	--btn-padding-x: var(--space-4);
 	--btn-padding-y: var(--space-6);
 }
 
@@ -5434,10 +5437,12 @@ button[disabled] {
 }
 
 .btn-hot-pink {
+	--btn-border-width: 0;
 	--btn-bg: var(--color-brand-hot-pink);
 }
 
 .btn-canary {
+	--btn-border-width: 0;
 	--btn-bg: var(--color-brand-canary);
 }
 

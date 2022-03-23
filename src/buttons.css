@@ -2,13 +2,10 @@
 	--btn-padding-x: var(--space-2);
 	--btn-padding-y: var(--space-3);
 	--btn-border-radius: 100px;
-	--btn-color: var(-color-brand-deep-blue);
-	--btn-border-color: var(-color-brand-deep-blue);
+	--btn-color: var(--color-brand-deep-blue);
+	--btn-border-color: var(--color-brand-deep-blue);
 	--btn-border-style: solid;
 	--btn-border-width: 1px;
-	--btn-border: var(
-		var(--btn-border-width) var(--btn-border-style) var(--btn-border-color)
-	);
 	--btn-bg: transparent;
 	--btn-text-transform: uppercase;
 	--btn-font-size: var(--overline-big);
@@ -24,8 +21,10 @@
 button {
 	display: inline-flex;
 	align-items: center;
+	justify-content: center;
 	padding: var(--btn-padding-x) var(--btn-padding-y);
-	border: var(--btn-border);
+	border: var(--btn-border-width) var(--btn-border-color)
+		var(--btn-border-style);
 	border-radius: var(--btn-border-radius);
 	color: var(--btn-color);
 	background-color: var(--btn-bg);
@@ -47,7 +46,7 @@ button {
 	--btn-padding-y: var(--space-4);
 }
 .btn-large {
-	--btn-padding-x: var(--space-10);
+	--btn-padding-x: var(--space-4);
 	--btn-padding-y: var(--space-6);
 }
 
@@ -70,8 +69,10 @@ button[disabled] {
 	--btn-bg: var(--color-gray-300);
 }
 .btn-hot-pink {
+	--btn-border-width: 0;
 	--btn-bg: var(--color-brand-hot-pink);
 }
 .btn-canary {
+	--btn-border-width: 0;
 	--btn-bg: var(--color-brand-canary);
 }

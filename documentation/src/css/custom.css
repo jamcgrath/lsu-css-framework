@@ -90,3 +90,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .breadcrumb-disabled:hover {
 	--bc-color: var(--color-gray-600) !important;
 }
+a.btn {
+	text-decoration: none !important;
+}
