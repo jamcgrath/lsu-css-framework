@@ -35,7 +35,7 @@ const config = {
 				},
 				theme: {
 					customCss: [
-						require.resolve("../public/styles.css"),
+						require.resolve("./src/styles.css"),
 						require.resolve("./src/css/custom.css"),
 					],
 				},
