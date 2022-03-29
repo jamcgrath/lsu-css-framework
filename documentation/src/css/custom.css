@@ -105,6 +105,7 @@ a.btn {
 	--color-state-motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
 	background: var(--color-state-motion);
 }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
 	select HTML5 Boilerplate css (H5BP)
 	select items from https://piccalil.li/blog/a-modern-css-reset
@@ -5571,7 +5572,7 @@ button[disabled] {
 }
 
 :root {
-	--control-font-size:var(--label);
+	--control-font-size: var(--label);
 	--control-bg: var(--color-gray-200);
 	--control-color: var(--color-gray-600);
 	--control-padding-y: 0.5rem;
@@ -5579,17 +5580,20 @@ button[disabled] {
 	--control-border-radius: 0.25rem;
 }
 
-.control-light,
-.control-dark{
+.control {
 	font-size: 0.875rem;
 	font-size: var(--control-font-size);
 	padding: 0.5rem 2rem;
 	padding: var(--control-padding-y) var(--control-padding-x);
 	border-radius: 0.25rem;
 	border-radius: var(--control-border-radius);
+	color: #9299be;
+	color: var(--control-color);
+	background-color: #f1f4ff;
+	background-color: var(--control-bg);
 }
 
-.control-light{
+.control-light {
 	--control-color: var(--color-gray-600);
 	--control-bg: var(--color-gray-200);
 }
@@ -5599,7 +5603,7 @@ button[disabled] {
 	--control-bg: var(--color-gray-900);
 }
 
-.control-active{
+.control-active {
 	--control-color: var(--color-white);
 	--control-bg: var(--color-brand-mint);
 }
@@ -5610,13 +5614,15 @@ button[disabled] {
 }
 
 .control-rounded-l {
-	border-radius: 0.25rem  0 0 0.25rem;
-	border-radius: var(--control-border-radius)  0 0 var(--control-border-radius);
+	--control-border-radius: 0.25rem 0 0 0.25rem;
+	border-radius: 0.25rem;
+	border-radius: var(--control-border-radius);
 }
 
 .control-rounded-r {
-	border-radius: 0 0.25rem 0.25rem 0;
-	border-radius: 0 var(--control-border-radius) var(--control-border-radius) 0;
+	--control-border-radius: 0 0.25rem 0.25rem 0;
+	border-radius: 0.25rem;
+	border-radius: var(--control-border-radius);
 }
 
 .list-reset {
