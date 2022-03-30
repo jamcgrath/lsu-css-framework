@@ -142,6 +142,18 @@
 	.md-align-center {
 		align-items: center;
 	}
+	.md-flex-1 {
+		flex: 1;
+	}
+	.md-flex-2 {
+		flex: 2;
+	}
+	.md-flex-3 {
+		flex: 3;
+	}
+	.md-flex-4 {
+		flex: 4;
+	}
 }
 
 @media (--mq-lg) {
@@ -199,5 +211,17 @@
 	}
 	.lg-align-center {
 		align-items: center;
+	}
+	.lg-flex-1 {
+		flex: 1;
+	}
+	.lg-flex-2 {
+		flex: 2;
+	}
+	.lg-flex-3 {
+		flex: 3;
+	}
+	.lg-flex-4 {
+		flex: 4;
 	}
 }
