@@ -73,7 +73,7 @@
 | .fw-600<br/>.semi-bold   | font-weight: var(--semi-bold);   | 600    |
 | .fw-700<br/>.bold        | font-weight: var(--bold);        | 700    |
 | .fw-800<br/>.extra-bold  | font-weight: var(--extra-bold);  | 800    |
-| .fw-900<br/>.black       | font-weight: var(--black);       | 900    |
+| .fw-900<br/>.black-bold  | font-weight: var(--black-bold);  | 900    |
 | .fw-inherit              | font-weight: inherit;            | x      |
 
 ### font-weight custom properties
@@ -97,7 +97,7 @@
 --semi-bold: var(--fw600);
 --bold: var(--fw700);
 --extra-bold: var(--fw800);
---black: var(--fw900);
+--black-bold: var(--fw900);
 ```
 
 ## text alignment
