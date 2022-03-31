@@ -134,3 +134,32 @@
 | Class name | value                |
 | ---------- | -------------------- |
 | .nowrap    | white-space: nowrap; |
+
+## Magic
+
+If you under stand the magic of `.fs-scale` and how to use it, then you have permission to use the magic!
+
+```css
+.fs-scale {
+	--root-fs: 16;
+	--fs-min: 1rem;
+	--fs-max: 2rem;
+	--mq1: 320;
+	--mq2: 800;
+	--min-width: calc(var(--mq1) / var(--root-fs));
+	--max-width: calc(var(--mq2) / var(--root-fs));
+	--slope: calc(
+		(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width))
+	);
+	--y-intersect: calc(
+		(calc(var(--min-width) * -1) * var(--slope) + var(--min-fs))
+	);
+	--slope-vw: calc(var(--slope) * 100vw);
+	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
+	--clamp-fs: clamp(
+		calc(var(--min-fs) * 1rem),
+		var(--preferred-val),
+		calc(var(--max-fs) * 1rem)
+	);
+}
+```
