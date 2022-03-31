@@ -31,8 +31,8 @@ Extends the .visually-hidden class to allow the element `to be focusable when na
 
 Hide visually and from screen readers, but maintain layout
 
-```css .invisible {
-visibility: hidden;
+```css
+.invisible {
+	visibility: hidden;
 }
-
 ```
