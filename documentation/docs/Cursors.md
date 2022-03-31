@@ -1,0 +1,8 @@
+```css
+.cursor-pointer {
+	cursor: pointer;
+}
+.cursor-grab {
+	cursor: grab;
+}
+```
