@@ -18,7 +18,7 @@
 }
 
 @media (--mq-md) {
-    .md-block {
+	.md-block {
 		display: block;
 	}
 	.md-inline-block {
@@ -29,8 +29,8 @@
 	}
 }
 
-@media(--mq-lq) {
-    .lg-block {
+@media (--mq-lq) {
+	.lg-block {
 		display: block;
 	}
 	.lg-inline-block {
