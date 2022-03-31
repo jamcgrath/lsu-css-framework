@@ -1,15 +1,21 @@
-.relative	{
+.relative {
 	position: relative;
 }
-.absolute	{
+.absolute {
 	position: absolute;
 }
-.fixed		{
+.fixed {
 	position: fixed;
 }
-.static		{
+.static {
 	position: static;
 }
-.sticky	{
+.sticky {
 	position: sticky;
+}
+.absolute-children {
+	position: relative;
+}
+.absolute-children > * {
+	position: absolute;
 }
