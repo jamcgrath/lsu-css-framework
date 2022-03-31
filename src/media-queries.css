@@ -1,5 +1,5 @@
-@custom-media --mq-sm-max (max-width: 39.9375em); 							/* 639px */
-@custom-media --mq-md (min-width: 40em); 									/* 640px */
-@custom-media --mq-md-max (max-width: 63.9385em); 							/* 1023px */
-@custom-media --mq-md-only (min-width: 40em) and (max-width: 63.9385em); 	/* 640px - 1023px*/
-@custom-media --mq-lg (min-width: 64em); 									/* 1024px */
+@custom-media --mq-sm-max (width: >= 39.9375em); /* 639px */
+@custom-media --mq-md (width > 40em); /* 640px */
+@custom-media --mq-md-max (width >= 63.9385em); /* 1023px */
+@custom-media --mq-md-only (40em >= width <63.9385em); /* 640px - 1023px*/
+@custom-media --mq-lg (width < 64em); /* 1024px */
