@@ -30,7 +30,7 @@
 
 ## Button Custom Properties
 
-```CSS
+```css
 :root {
 	--btn-padding-x: var(--space-2);
 	--btn-padding-y: var(--space-3);

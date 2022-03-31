@@ -18,18 +18,14 @@
 
 Adjust the circle with using the following variables: `--circle-width`
 
-```HTML
-:root {
-	--circle-width: ;
-}
+```html
+:root { --circle-width: ; }
 ```
 
 Note that the `--circle-width` has no value. You will have to set it to make a circle
 
-```HTML
-<div class="my-circle circle"> --- </div>
+```html
+<div class="my-circle circle">---</div>
 
-.my-circle.circle {
-	--circle-width: 100px;
-}
+.my-circle.circle { --circle-width: 100px; }
 ```

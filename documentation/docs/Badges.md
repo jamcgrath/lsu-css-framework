@@ -19,7 +19,7 @@
 
 ## Badge Custom Properties
 
-```CSS
+```css
 :root {
 	--badge-color: var(--color-white);
 	--badge-bg: var(--color-black);
