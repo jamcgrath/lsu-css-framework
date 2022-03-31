@@ -47,7 +47,7 @@
 
 	font-size: var(--list-fs;
 	line-height: var(--list-line-height);
-	margin: var(--list-margin)
+	margin: var(--list-margin);
 	padding-left: var(--list-padding-left);
 	list-style: none;
 	background-position: var(--list-bg-pos);
