@@ -2,7 +2,7 @@
 .container {
 	width: 100%;
 	max-width: 1160px;
-
+}
 
 /* break child out of parent container */
 .fullwidth {
