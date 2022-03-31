@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "CSS Framework",
 	tagline: "Enough flexibility to hang yourself with",
-	url: "https://your-docusaurus-test-site.com",
+	url: "https://le-css-framework.vercel.app/",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -24,13 +24,13 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
-					editUrl: "https://github.com/jamcgrath/css-framework",
+					editUrl: "https://github.com/jamcgrath/css-framework/",
 				},
-				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					editUrl: "https://github.com/jamcgrath/css-framework",
-				},
+				// blog: {
+				// 	showReadingTime: true,
+				// 	// Please change this to your repo.
+				// 	editUrl: "https://github.com/jamcgrath/css-framework",
+				// },
 				theme: {
 					customCss: [require.resolve("./src/css/custom.css")],
 				},
@@ -54,7 +54,7 @@ const config = {
 						position: "left",
 						label: "Tutorial",
 					},
-					{ to: "/blog", label: "Blog", position: "left" },
+					// { to: "/blog", label: "Blog", position: "left" },
 					{
 						href: "https://github.com/jamcgrath/css-framework",
 						label: "GitHub",
