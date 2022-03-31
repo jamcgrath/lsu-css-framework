@@ -1,6 +1,6 @@
-This is a custom file made up of rules from:
-normalize.css v8.0.1 https://github.com/necolas/normalize.css
-HTML5 Boilerplate css https://html5boilerplate.com/
+This is a custom file made up of rules from:<br/>
+normalize.css v8.0.1 https://github.com/necolas/normalize.css<br/>
+HTML5 Boilerplate css https://html5boilerplate.com/<br/>
 Modern css reset https://piccalil.li/blog/a-modern-css-reset
 
 ```css
