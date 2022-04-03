@@ -29,7 +29,7 @@
 	}
 }
 
-@media (--mq-lq) {
+@media (--mq-lg) {
 	.lg-block {
 		display: block;
 	}
