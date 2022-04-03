@@ -17,7 +17,15 @@ Apply the class to the `<ul>` element.
 | .list-style-check-medium | --list-line-height: 1.5;<br/>--list-fs: var(--body);<br/>--list-padding-left: 21px;<br/>--list-bg-pos: 0 -2px;<br/><br/>font-size: var(--list-fs;<br/>line-height: var(--list-line-height);<br/>margin: var(--list-margin);<br/>padding-left: var(--list-padding-left);<br/>list-style: none;<br/>background-position: var(--list-bg-pos);<br/>background-repeat: no-repeat;<br/>background-image: var(--list-check-svg-md);<br/>     |
 | .list-style-check-large  | --list-line-height: 1.6;<br/>--list-fs: var(--title-7);<br/>--list-padding-left: 30px;<br/>--list-bg-pos: 0 -3px;<br/><br/>font-size: var(--list-fs);<br/>line-height: var(--list-line-height);<br/>margin: var(--list-margin);<br/>padding-left: var(--list-padding-left);<br/>list-style: none;<br/>background-position: var(--list-bg-pos);<br/>background-repeat: no-repeat;<br/>background-image: var(--list-check-svg-lg)<br/>; |
 
-Apply the class to the `<ul>` element.
+Apply the class to the `<ul>` element and be sure to add `role="list"`
+
+```html
+<ul class="list-style-check-small" role="list">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ul>
+```
 
 To switch the color of the check mark, copy the svg from code, change the fill value and overide the css variable.
 
