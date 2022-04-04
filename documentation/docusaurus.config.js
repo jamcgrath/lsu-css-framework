@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "CSS Framework",
 	tagline: "Enough flexibility to hang yourself with",
-	url: "https://le-css-framework.vercel.app/",
+	url: "https://l.vercel.app/",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
