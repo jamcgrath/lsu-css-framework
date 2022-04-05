@@ -141,7 +141,7 @@ html {
 body {
 	min-height: 100vh;
 	text-rendering: optimizeSpeed;
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 /**
@@ -199,7 +199,7 @@ abbr[title] {
 	border-bottom: none; /* 1 */
 	text-decoration: underline; /* 2 */
 	-webkit-text-decoration: underline dotted;
-	        text-decoration: underline dotted; /* 2 */
+	text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -434,7 +434,7 @@ video {
 a {
 	--text-decoration: none;
 	-webkit-text-decoration: var(--text-decoration);
-	        text-decoration: var(--text-decoration);
+	text-decoration: var(--text-decoration);
 }
 
 /* Make images easier to work with */
@@ -475,9 +475,9 @@ html:focus-within {
 	*::before,
 	*::after {
 		-webkit-animation-duration: 0.01ms !important;
-		        animation-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
 		-webkit-animation-iteration-count: 1 !important;
-		        animation-iteration-count: 1 !important;
+		animation-iteration-count: 1 !important;
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}
@@ -840,20 +840,20 @@ html:focus-within {
 }
 
 :root {
-	--title-1: 5rem;							/* 80px */
-	--title-2: 4rem;							/* 64px */
-	--title-3: 3rem;							/* 48px */
-	--title-4: 2.5rem;						/* 40px */
-	--title-5: 2rem;							/* 32px */
-	--title-6: 1.5rem;						/* 24px */
-	--title-7: 1.25rem;						/* 20px */
-	--copy: 1.125rem;							/* 18px */
-	--body: 1rem;									/* 16px */
-	--label: 0.875rem;						/* 14px */
-	--caption: 0.75rem;						/* 12px */
-	--overline-big: 0.6875rem;		/* 11px */
-	--small: 0.625rem;						/* 10px */
-	--overline-small: 0.5625rem;	/* 9px  */
+	--title-1: 5rem; /* 80px */
+	--title-2: 4rem; /* 64px */
+	--title-3: 3rem; /* 48px */
+	--title-4: 2.5rem; /* 40px */
+	--title-5: 2rem; /* 32px */
+	--title-6: 1.5rem; /* 24px */
+	--title-7: 1.25rem; /* 20px */
+	--copy: 1.125rem; /* 18px */
+	--body: 1rem; /* 16px */
+	--label: 0.875rem; /* 14px */
+	--caption: 0.75rem; /* 12px */
+	--overline-big: 0.6875rem; /* 11px */
+	--small: 0.625rem; /* 10px */
+	--overline-small: 0.5625rem; /* 9px  */
 
 	--quote: var(--title-4);
 
@@ -890,57 +890,62 @@ html:focus-within {
 	--noto-serif: "Noto Serif", serif;
 
 	/*line-height  */
-	--line-height: 1.3;  /* default */
+	--line-height: 1.3; /* default */
 
 	/* letter spacing */
-	--letter-spacing: ; 								/* empty    */
-	--letter-spacing-1: -0.0078125rem;	/* -0.25px 	*/
-	--letter-spacing-2: -0.015625rem;		/* -0.5px 	*/
-	--letter-spacing-3: -0.03125rem;		/* -0.75px 	*/
-	--letter-spacing-4: -0.0625rem;			/* -1px 		*/
-	--letter-spacing-5: -0.078125rem;   /* -1.25px 	*/
-	--letter-spacing-6: -0.09375rem; 		/* -1.5px 	*/
-	--letter-spacing-7: -0.125rem; 			/* -2px 		*/
-
+	--letter-spacing: ; /* empty    */
+	--letter-spacing-1: -0.0078125rem; /* -0.25px 	*/
+	--letter-spacing-2: -0.015625rem; /* -0.5px 	*/
+	--letter-spacing-3: -0.03125rem; /* -0.75px 	*/
+	--letter-spacing-4: -0.0625rem; /* -1px 		*/
+	--letter-spacing-5: -0.078125rem; /* -1.25px 	*/
+	--letter-spacing-6: -0.09375rem; /* -1.5px 	*/
+	--letter-spacing-7: -0.125rem; /* -2px 		*/
 }
 
 /* Fonts */
 
 @font-face {
-  font-family: 'Inter';
-  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2') format('woff2 supports variations'),
-    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2') format('woff2-variations');
-  font-weight: 400 900;
-  font-display: swap;
-
+	font-family: "Inter";
+	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2")
+			format("woff2 supports variations"),
+		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/inter-var.woff2")
+			format("woff2-variations");
+	font-weight: 400 900;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Serif TC', serif;
-  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff2') format('woff2'),
-    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-
+	font-family: "Noto Serif TC", serif;
+	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff2")
+			format("woff2"),
+		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff")
+			format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Serif TC', serif;
-  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff2') format('woff2'),
-    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Noto Serif TC", serif;
+	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff2")
+			format("woff2"),
+		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff")
+			format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Serif TC', serif;
-  src: url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff2') format('woff2'),
-    url('https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff') format('woff');
-  font-weight: black;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Noto Serif TC", serif;
+	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff2")
+			format("woff2"),
+		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff")
+			format("woff");
+	font-weight: black;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* font-family */
@@ -969,7 +974,7 @@ html:focus-within {
 	font-size: var(--title-1);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -982,7 +987,7 @@ html:focus-within {
 	font-size: var(--title-2);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -990,11 +995,11 @@ html:focus-within {
 .title-3,
 .title-display-2 {
 	--line-height: 1.16;
-	--letter-spacing: var(--letter-spacing-6)
+	--letter-spacing: var(--letter-spacing-6);
 	font-size: var(--title-);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1008,7 +1013,7 @@ html:focus-within {
 	font-size: var(--title-4);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1021,7 +1026,7 @@ html:focus-within {
 	font-size: var(--title-5);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1033,7 +1038,7 @@ html:focus-within {
 	font-size: var(--title-6);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1046,7 +1051,7 @@ html:focus-within {
 	font-size: var(--title-7);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1057,7 +1062,7 @@ html:focus-within {
 	font-size: var(--copy);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1080,7 +1085,7 @@ html:focus-within {
 }
 
 .fs-xs,
- .caption {
+.caption {
 	font-size: 0.75rem;
 	font-size: var(--caption);
 	line-height: 1.3;
@@ -1099,12 +1104,12 @@ html:focus-within {
 .fs-3xs,
 .overline-big {
 	--line-height: 1.09;
-	--letter-spacing: .125rem;
+	--letter-spacing: 0.125rem;
 	font-size: 0.6875rem;
 	font-size: var(--overline-big);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1132,7 +1137,10 @@ html:focus-within {
 	);
 	--slope-vw: calc(var(--slope) * 100vw);
 	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
-	--clamp-fs: max(calc(var(--min-fs) * 1rem), min(var(--preferred-val), calc(var(--max-fs) * 1rem)));
+	--clamp-fs: max(
+		calc(var(--min-fs) * 1rem),
+		min(var(--preferred-val), calc(var(--max-fs) * 1rem))
+	);
 }
 
 .fs-inherit {
@@ -5556,10 +5564,7 @@ html:focus-within {
 }
 
 .grid-column {
-	grid-template-columns: repeat(
-		auto-fit,
-		minmax(0, 1fr)
-	);
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 	grid-template-columns: repeat(
 		var(--grid-repeat),
 		minmax(var(--grid-col-min), var(--grid-col-max))
@@ -5567,10 +5572,7 @@ html:focus-within {
 }
 
 .grid-row {
-	grid-template-rows: repeat(
-		auto-fit,
-		minmax(1fr, 1fr)
-	);
+	grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
 	grid-template-rows: repeat(
 		var(--grid-repeat),
 		minmax(var(--grid-row-min), var(--grid-row-max))
@@ -5594,7 +5596,7 @@ html:focus-within {
 }
 
 @media (min-width: 40.001em) {
-    .md-grid {
+	.md-grid {
 		display: grid;
 	}
 	.md-grid-column-1 {
@@ -5612,7 +5614,7 @@ html:focus-within {
 }
 
 @media (max-width: 63.999em) {
-    .lg-grid {
+	.lg-grid {
 		display: grid;
 	}
 	.lg-grid-column-1 {
@@ -5750,7 +5752,7 @@ html:focus-within {
 	position: absolute;
 }
 
-.box-border	{
+.box-border {
 	box-sizing: border-box;
 }
 
@@ -5795,7 +5797,7 @@ html:focus-within {
 	border-radius: var(--badge-border-radius);
 	text-decoration: none;
 	-webkit-text-decoration: var(--badge-text-decoration);
-	        text-decoration: var(--badge-text-decoration);
+	text-decoration: var(--badge-text-decoration);
 	cursor: pointer;
 	cursor: var(--badge-cursor);
 }
@@ -5931,9 +5933,9 @@ html:focus-within {
 .circle {
 	border-radius: 50%;
 	aspect-ratio: 1;
-	width:  ;
+	width: ;
 	width: var(--circle-width);
-	height:  ;
+	height: ;
 	height: var(--circle-width);
 }
 
@@ -5983,8 +5985,7 @@ button {
 	justify-content: center;
 	padding: calc((4 * 2) / 16 * 1rem) calc((4 * 3) / 16 * 1rem);
 	padding: var(--btn-padding-x) var(--btn-padding-y);
-	border: 1px hsl(240, 37%, 24%)
-		solid;
+	border: 1px hsl(240, 37%, 24%) solid;
 	border: var(--btn-border-width) var(--btn-border-color)
 		var(--btn-border-style);
 	border-radius: 100px;
@@ -6004,7 +6005,7 @@ button {
 	letter-spacing: 2px;
 	text-decoration: none;
 	-webkit-text-decoration: var(--btn-text-decoration);
-	        text-decoration: var(--btn-text-decoration);
+	text-decoration: var(--btn-text-decoration);
 	cursor: pointer;
 	cursor: var(--btn-cursor);
 }
@@ -6209,39 +6210,39 @@ button[disabled] {
 	background-image: var(--list-check-svg-lg);
 }
 
-.overflow-auto	{
+.overflow-auto {
 	overflow: auto;
 }
 
-.overflow-x-auto	{
+.overflow-x-auto {
 	overflow-x: auto;
 }
 
-.overflow-y-auto	{
+.overflow-y-auto {
 	overflow-y: auto;
 }
 
-.overflow-scroll	{
+.overflow-scroll {
 	overflow: scroll;
 }
 
-.overflow-x-scroll	{
+.overflow-x-scroll {
 	overflow-x: scroll;
 }
 
-.overflow-y-scroll	{
+.overflow-y-scroll {
 	overflow-y: scroll;
 }
 
-.overflow-hidden	{
+.overflow-hidden {
 	overflow: hidden;
 }
 
-.overflow-x-hidden	{
+.overflow-x-hidden {
 	overflow-x: hidden;
 }
 
-.overflow-y-hidden	{
+.overflow-y-hidden {
 	overflow-y: hidden;
 }
 
@@ -6257,27 +6258,27 @@ button[disabled] {
 	overflow-y: visible;
 }
 
-.z-0	{
+.z-0 {
 	z-index: 0;
 }
 
-.z-1	{
+.z-1 {
 	z-index: 1;
 }
 
-.z-10	{
+.z-10 {
 	z-index: 10;
 }
 
-.z-20	{
+.z-20 {
 	z-index: 20;
 }
 
-.z-30	{
+.z-30 {
 	z-index: 30;
 }
 
-.z-40	{
+.z-40 {
 	z-index: 40;
 }
 
@@ -6293,11 +6294,11 @@ button[disabled] {
 	z-index: 500;
 }
 
-.z-negative	{
+.z-negative {
 	z-index: -1;
 }
 
-.z-blowout	{
+.z-blowout {
 	z-index: 1000000;
 }
 
@@ -6332,7 +6333,7 @@ button[disabled] {
 	text-align: center;
 	text-decoration: none;
 	-webkit-text-decoration: var(--bc-text-decoration);
-	        text-decoration: var(--bc-text-decoration);
+	text-decoration: var(--bc-text-decoration);
 }
 
 .breadcrumb-dark {

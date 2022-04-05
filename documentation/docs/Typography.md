@@ -1,3 +1,21 @@
+<div class="grid grid-column-2 gap-3 bg-gray-100 px-3 py-3 br-8 inter">
+	<span class="title-1">title-1</span>
+	<span class="title-2">title-2</span>
+	<span class="title-3">title-3</span>
+	<span class="title-4">title-4</span>
+	<span class="title-5">title-5</span>
+	<span class="title-6">title-6</span>
+	<span class="title-7">title-7</span>
+	<span class="copy">copy</span>
+	<span class="body">body</span>
+	<span class="label">label</span>
+	<span class="caption">caption</span>
+	<span class="overline-big">overline-big</span>
+	<span class="small">small</span>
+	<span class="overline-small">overline-small</span>
+
+</div>
+
 ## font family
 
 | Class name    | value                           |
