@@ -14,7 +14,7 @@
 ### grid css properties
 
 ```css
-:where(html) {
+:root {
 	--grid-min: 0;
 	--grid-max: 1fr;
 	--repeat: auto-fit;
