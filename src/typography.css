@@ -140,7 +140,7 @@
 .title-display-2 {
 	--line-height: 1.16;
 	--letter-spacing: var(--letter-spacing-6);
-	font-size: var(--title-);
+	font-size: var(--title-3);
 	line-height: var(--line-height);
 	letter-spacing: var(--letter-spacing);
 }
