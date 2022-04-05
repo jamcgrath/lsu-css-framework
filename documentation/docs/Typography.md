@@ -1,21 +1,3 @@
-<div class="grid grid-column-2 gap-3 bg-gray-100 px-3 py-3 br-8 inter">
-	<span class="title-1">title-1</span>
-	<span class="title-2">title-2</span>
-	<span class="title-3">title-3</span>
-	<span class="title-4">title-4</span>
-	<span class="title-5">title-5</span>
-	<span class="title-6">title-6</span>
-	<span class="title-7">title-7</span>
-	<span class="copy">copy</span>
-	<span class="body">body</span>
-	<span class="label">label</span>
-	<span class="caption">caption</span>
-	<span class="overline-big">overline-big</span>
-	<span class="small">small</span>
-	<span class="overline-small">overline-small</span>
-
-</div>
-
 ## font family
 
 | Class name    | value                           |
@@ -33,23 +15,40 @@
 
 ## font size
 
-| Class name                                       | value                             | rem      | px   |
-| ------------------------------------------------ | --------------------------------- | -------- | ---- |
-| .h1<br/>.title-1                                 | font-size: var(--title-1);        | 5rem     | 80px |
-| .h2<br/>.title-2<br/>.title-display-1            | font-size: var(--title-2);        | 4rem     | 64px |
-| .h3<br/>.title-3<br/>.title-display-2            | font-size: var(--title-3);        | 3rem     | 48px |
-| .h4<br/>.title-4<br/>.title-display-3            | font-size: var(--title-4);        | 2.5rem   | 40px |
-| .h5<br/>.title-5<br/>.title-display-4<br/>.quote | font-size: var(--title-5);        | 2rem     | 32px |
-| .h6<br/>.title-6<br/>.title-display-5            | font-size: var(--title-6);        | 1.5rem   | 24px |
-| .fs-lg<br/>title-7<br/>.title-display-6          | font-size: var(--title-7);        | 1.25rem  | 20px |
-| .fs-md<br/>.copy                                 | font-size: var(--copy);           | 1.125rem | 18px |
-| .fs-normal<br/>.body                             | font-size: var(--body);           | 1rem     | 16px |
-| .fs-sm<br/>.label                                | font-size: var(--label);          | 0.875rem | 14px |
-| .fs-xs<br/>.caption                              | font-size: var(--caption);        | 0.75rem  | 12px |
-| .fs-2xs<br/>.overline-big                        | font-size: var(--overline-bg);    | .6875rem | 11px |
-| .fs-3xs<br/>.small                               | font-size: var(--small);          | 0.625rem | 10px |
-| .fs-4xs<br/>.overline-small                      | font-size: var(--overline-small); | .5625rem | 9px  |
-| .fs-inherit                                      | font-size: inherit;               | x        | x    |
+<div class="grid grid-column-2 gap-3 bg-gray-100 px-3 py-3 br-8 inter">
+	<span class="title-1">title-1</span>
+	<span class="title-2">title-2</span>
+	<span class="title-3">title-3</span>
+	<span class="title-4">title-4</span>
+	<span class="title-5">title-5</span>
+	<span class="title-6">title-6</span>
+	<span class="title-7">title-7</span>
+	<span class="copy">copy</span>
+	<span class="body">body</span>
+	<span class="label">label</span>
+	<span class="caption">caption</span>
+	<span class="overline-big">overline-big</span>
+	<span class="small">small</span>
+	<span class="overline-small">overline-small</span>
+</div>
+
+| Class name                               | value                             | rem      | px   |
+| ---------------------------------------- | --------------------------------- | -------- | ---- |
+| .title-1                                 | font-size: var(--title-1);        | 5rem     | 80px |
+| .title-2<br/>.title-display-1            | font-size: var(--title-2);        | 4rem     | 64px |
+| .title-3<br/>.title-display-2            | font-size: var(--title-3);        | 3rem     | 48px |
+| .title-4<br/>.title-display-3            | font-size: var(--title-4);        | 2.5rem   | 40px |
+| .title-5<br/>.title-display-4<br/>.quote | font-size: var(--title-5);        | 2rem     | 32px |
+| .title-6<br/>.title-display-5            | font-size: var(--title-6);        | 1.5rem   | 24px |
+| .title-7<br/>.title-display-6            | font-size: var(--title-7);        | 1.25rem  | 20px |
+| .copy                                    | font-size: var(--copy);           | 1.125rem | 18px |
+| .body                                    | font-size: var(--body);           | 1rem     | 16px |
+| .label                                   | font-size: var(--label);          | 0.875rem | 14px |
+| .caption                                 | font-size: var(--caption);        | 0.75rem  | 12px |
+| .overline-big                            | font-size: var(--overline-bg);    | .6875rem | 11px |
+| .small                                   | font-size: var(--small);          | 0.625rem | 10px |
+| .overline-small                          | font-size: var(--overline-small); | .5625rem | 9px  |
+| .fs-inherit                              | font-size: inherit;               | x        | x    |
 
 ### font-size custom properties
 
