@@ -3,14 +3,14 @@
 | Class name    | value                           |
 | ------------- | ------------------------------- |
 | .inter        | font-family: var(--inter);      |
-| .noto-serif   | font-family: var(--noto-serif); |
 | .font-inherit | font-family: inherit;           |
 
 ### font family custom properties
 
 ```css
---inter: "Inter", sans-serif;
---noto-serif: "Noto Serif", serif;
+:root {
+	--inter: "Inter", sans-serif;
+}
 ```
 
 ## font size

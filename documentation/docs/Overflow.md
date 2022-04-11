@@ -12,3 +12,14 @@
 | .overflow-visible   | overflow: visible   |
 | .overflow-x-visible | overflow-x: visible |
 | .overflow-y-visible | overflow-y: visible |
+
+```css 
+/* hide scrollbars */
+.hide-scroll {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+  }
+.hide-scroll::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
+}
+```
