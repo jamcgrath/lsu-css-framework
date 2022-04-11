@@ -8,16 +8,19 @@ Default focus styles
 	--focus-outline-offset: 2px;
 }
 
-*:focus {
+*:focus,
+.focus:focus {
 	outline: var(--focus-outline-width) var(--focus-outline-style) var(--focus-outline-color);
 	outline-offset: var(--focus-outline-offset);
 }
 
 @supports selector(:focus-visible) {
-	*:focus {
+	*:focus,
+	.focus:focus {
 		outline: none;
 	}
-	*:focus-visible {
+	*:focus-visible,
+	.focus:focus-visible {
 		outline: var(--focus-outline-width) var(--focus-outline-style) var(--focus-outline-color);
 		outline-offset: var(--focus-outline-offset);
 	}
