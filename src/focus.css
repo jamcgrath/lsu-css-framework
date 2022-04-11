@@ -1,0 +1,23 @@
+--root {
+	--focus-outline-color: var(--color-state-hover);
+	--focus-outline-style: solid;
+	--focus-outline-width: 2px;
+	--focus-outline-offset: 2px;
+}
+
+*:focus {
+	outline: var(--focus-outline-width) var(--focus-outline-style)
+		var(--focus-outline-color);
+	outline-offset: var(--focus-outline-offset);
+}
+
+@supports selector(:focus-visible) {
+	*:focus {
+		outline: none;
+	}
+	*:focus-visible {
+		outline: var(--focus-outline-width) var(--focus-outline-style)
+			var(--focus-outline-color);
+		outline-offset: var(--focus-outline-offset);
+	}
+}
