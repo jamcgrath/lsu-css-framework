@@ -9,15 +9,17 @@ To make a background color, prefix `bg-` to the color class.
 | .courses-green    | color: var(--color-courses-green);    | <span class="bg-courses-green py-3 flex justify-center">#a0f1d8;</span>              |
 | .courses-purple   | color: var(--color-courses-purple);   | <span class="bg-courses-purple py-3 flex justify-center">#f1c7ff;</span>             |
 | .courses-mint     | color: var(--color-courses-mint);     | <span class="bg-courses-mint py-3 flex justify-center">#b5f0ed;</span>               |
-| .info             | color: var(--color-info);             | <span class="bg-info py-3 flex justify-center">#b5f0ed;</span>                       |
-| .info-light       | color: var(--color-info-light);       | <span class="bg-info-light py-3 flex justify-center">#b5f0ed;</span>                 |
-| .success          | color: var(--color-success);          | <span class="bg-success py-3 flex justify-center">#b5f0ed;</span>                    |
-| .success-light    | color: var(--color-success-light);    | <span class="bg-success-light py-3 flex justify-center">#b5f0ed;</span>              |
-| .alert            | color: var(--color-alert);            | <span class="bg-alert py-3 flex justify-center">#b5f0ed;</span>                      |
-| .warning          | color: var(--color-warning);          | <span class="bg-warning py-3 flex justify-center">#b5f0ed;</span>                    |
-| .error            | color: var(--color-error);            | <span class="bg-error py-3 flex justify-center">#b5f0ed;</span>                      |
-| .error-light      | color: var(--color-error-light);      | <span class="bg-error-light py-3 flex justify-center">#b5f0ed;</span>                |
-| .error-semi-light | color: var(--color-error-semi-light); | <span class="bg-error-semi-light py-3 flex justify-center">#b5f0ed;</span>           |
+| .info             | color: var(--color-info);             | <span class="bg-info py-3 flex justify-center">#5487f5;</span>                       |
+| .info-light       | color: var(--color-info-light);       | <span class="bg-info-light py-3 flex justify-center">#e5edfe;</span>                 |
+| .success          | color: var(--color-success);          | <span class="bg-success py-3 flex justify-center">#00c48c;</span>                    |
+| .success-light    | color: var(--color-success-light);    | <span class="bg-success-light py-3 flex justify-center">#d9f6ee;</span>              |
+| .alert            | color: var(--color-alert);            | <span class="bg-alert py-3 flex justify-center">#f1b422;</span>                      |
+| .alert-light      | color: var(--color-alert-light);      | <span class="bg-alert-light py-3 flex justify-center">#fff8e7;</span>                |
+| .warning          | color: var(--color-warning);          | <span class="bg-warning py-3 flex justify-center">#ffa26b</span>                     |
+| .warning-light    | color: var(--color-warning-light);    | <span class="bg-warning-light py-3 flex justify-center">#fff1e9</span>               |
+| .error            | color: var(--color-error);            | <span class="bg-error py-3 flex justify-center">#ff647c;</span>                      |
+| .error-light      | color: var(--color-error-light);      | <span class="bg-error-light py-3 flex justify-center">#ffe8eb;</span>                |
+| .error-semi-light | color: var(--color-error-semi-light); | <span class="bg-error-semi-light py-3 flex justify-center">#efdddf;</span>           |
 | .black            | color: var(--color-black);            | <span class="bg-black py-3 flex justify-center white">#000;</span>                   |
 | .white            | color: var(--color-white);            | <span class="bg-white py-3 flex justify-center">#fff;</span>                         |
 
