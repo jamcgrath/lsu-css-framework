@@ -42,70 +42,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .docs-circle {
 	--circle-width: 50px;
 }
-
-:root {
-	--bc-color: var(--color-black);
-	--bc-bg: var(--color-white);
-	--bc-padding-y: 0.25rem;
-	--bc-padding-x: 0.75rem;
-	--bc-border-radius: 0.5rem;
-	--bc-font-size: var(--body);
-	--bc-text-decoration: none;
-}
-
-.breadcrumb,
-.breadcrumb-dark,
-.breadcrumb-disabled {
-	list-style: none;
-	font-size: var(--bc-font-size) !important;
-	padding: var(--bc-padding-y) var(--bc-padding-x) !important;
-	border-radius: var(--bc-border-radius) !important;
-	background-color: var(--bc-bg) !important;
-	color: var(--bc-color) !important;
-	text-align: center !important;
-	text-decoration: var(--bc-text-decoration) !important;
-}
-.breadcrumb-dark {
-	--bc-bg: var(--color-gray-900) !important;
-	--bc-color: var(--color-white) !important;
-}
-
-.breadcrumb:hover,
-.breadcrumb-dark:hover {
-	--bc-color: var(--color-state-hover) !important;
-}
-.breadcrumb:focus {
-	--bc-color: var(--color-white) !important;
-	--bc-bg: var(--color-brand-mint) !important;
-}
-.breadcrumb-dark:focus {
-	--bc-color: var(--color-gray-900) !important;
-	--bc-bg: var(--color-brand-mint) !important;
-}
-
-.breadcrumb-disabled {
-	--bc-color: var(--color-gray-600) !important;
-	--bc-bg: var(--color-gray-300) !important;
-}
-.breadcrumb-disabled:hover {
-	--bc-color: var(--color-gray-600) !important;
-}
-a.btn {
-	text-decoration: none !important;
-}
-.docs-state-hover {
-	--color-state-hover: #7d8cff;
-	background: var(--color-state-hover);
-}
-.docs-state-pressed {
-	--color-state-pressed: #5b6ae8;
-	background: var(--color-state-pressed);
-}
-.docs-state-motion {
-	--color-state-motion: linear-gradient(90deg, #f1f4ff 0%, #e7ebfb 100%);
-	background: var(--color-state-motion);
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  &
 	select HTML5 Boilerplate css (H5BP)
 	select items from https://piccalil.li/blog/a-modern-css-reset
@@ -887,7 +823,6 @@ html:focus-within {
 
 	/* font family */
 	--inter: "Inter", sans-serif;
-	--noto-serif: "Noto Serif", serif;
 
 	/*line-height  */
 	--line-height: 1.3; /* default */
@@ -926,28 +861,6 @@ html:focus-within {
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff")
-			format("woff");
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff")
-			format("woff");
-	font-weight: black;
-	font-style: normal;
-	font-display: swap;
-}
-
 /* font-family */
 
 .inter {
@@ -956,7 +869,6 @@ html:focus-within {
 }
 
 .noto-serif {
-	font-family: "Noto Serif", serif;
 	font-family: var(--noto-serif);
 }
 
@@ -996,6 +908,7 @@ html:focus-within {
 .title-display-2 {
 	--line-height: 1.16;
 	--letter-spacing: var(--letter-spacing-6);
+	font-size: 3rem;
 	font-size: var(--title-3);
 	line-height: 1.3;
 	line-height: var(--line-height);
@@ -2911,7 +2824,7 @@ html:focus-within {
 	padding-bottom: var(--rem);
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40.001em) {
 	.md-m-auto {
 		margin: auto;
 	}
@@ -4119,7 +4032,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 64em) {
+@media (min-width: 64.001em) {
 	.lg-m-auto {
 		margin: auto;
 	}
@@ -5481,7 +5394,7 @@ html:focus-within {
 	}
 }
 
-@media (max-width: 63.999em) {
+@media (min-width: 64.001em) {
 	.lg-flex {
 		display: flex;
 	}
@@ -5613,7 +5526,7 @@ html:focus-within {
 	}
 }
 
-@media (max-width: 63.999em) {
+@media (min-width: 64.001em) {
 	.lg-grid {
 		display: grid;
 	}
@@ -5664,7 +5577,7 @@ html:focus-within {
 	}
 }
 
-@media (--mq-lq) {
+@media (min-width: 64.001em) {
 	.lg-block {
 		display: block;
 	}
@@ -6258,6 +6171,17 @@ button[disabled] {
 	overflow-y: visible;
 }
 
+/* hide scrollbars */
+
+.hide-scroll {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.hide-scroll::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
+}
+
 .z-0 {
 	z-index: 0;
 }
@@ -6380,4 +6304,37 @@ button[disabled] {
 
 .pointer-events-auto {
 	pointer-events: auto;
+}
+
+--root {
+	--focus-outline-color: var(--color-state-hover);
+	--focus-outline-style: solid;
+	--focus-outline-width: 2px;
+	--focus-outline-offset: 2px;
+}
+
+*:focus,
+.focus:focus {
+	outline: var(--focus-outline-width) var(--focus-outline-style)
+		var(--focus-outline-color);
+	outline-offset: var(--focus-outline-offset);
+}
+
+@supports selector(:focus-visible) {
+	*:focus,
+	.focus:focus {
+		outline: none;
+	}
+	*.focus-visible,
+	.focus.focus-visible {
+		outline: var(--focus-outline-width) var(--focus-outline-style)
+			var(--focus-outline-color);
+		outline-offset: var(--focus-outline-offset);
+	}
+	*:focus-visible,
+	.focus:focus-visible {
+		outline: var(--focus-outline-width) var(--focus-outline-style)
+			var(--focus-outline-color);
+		outline-offset: var(--focus-outline-offset);
+	}
 }

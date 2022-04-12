@@ -779,7 +779,6 @@ html:focus-within {
 
 	/* font family */
 	--inter: "Inter", sans-serif;
-	--noto-serif: "Noto Serif", serif;
 
 	/*line-height  */
 	--line-height: 1.3; /* default */
@@ -818,28 +817,6 @@ html:focus-within {
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-bold.woff")
-			format("woff");
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-black.woff")
-			format("woff");
-	font-weight: black;
-	font-style: normal;
-	font-display: swap;
-}
-
 /* font-family */
 
 .inter {
@@ -848,7 +825,6 @@ html:focus-within {
 }
 
 .noto-serif {
-	font-family: "Noto Serif", serif;
 	font-family: var(--noto-serif);
 }
 
@@ -6153,6 +6129,17 @@ button[disabled] {
 
 .overflow-y-visible {
 	overflow-y: visible;
+}
+
+/* hide scrollbars */
+
+.hide-scroll {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+  }
+
+.hide-scroll::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
 }
 
 .z-0	{
