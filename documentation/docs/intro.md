@@ -4,4 +4,4 @@ The main idea is that this is a utility class framework that relies heavily on c
 
 ## How to use it
 
-In the simplest of explainations, just slap a class on an element that you want to style. ¯/\_(ツ)_/¯
+In the simplest of explainations, just slap a class on an element that you want to style. ¯\\_(ツ)_/¯
