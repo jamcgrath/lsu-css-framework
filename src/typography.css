@@ -188,7 +188,7 @@
 	line-height: var(--line-height);
 }
 
-@media (--mq-md) {
+@media (min-width: 40em) {
 	/* font-size */
 	.md-h1,
 	.md-title-1 {
@@ -297,7 +297,7 @@
 	}
 }
 
-@media (--mq-lg) {
+@media (min-width: 64em) {
 	/* font-size */
 	.lg-h1,
 	.lg-title-1 {

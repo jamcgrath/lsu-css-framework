@@ -17,7 +17,7 @@
 	display: none;
 }
 
-@media (--mq-md) {
+@media (min-width: 40em) {
 	.md-block {
 		display: block;
 	}
@@ -29,7 +29,7 @@
 	}
 }
 
-@media (--mq-lg) {
+@media (min-width: 64em) {
 	.lg-block {
 		display: block;
 	}

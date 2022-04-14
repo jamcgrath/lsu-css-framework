@@ -86,7 +86,7 @@
 	flex: 4;
 }
 
-@media (--mq-md) {
+@media (min-width: 40em) {
 	.md-flex {
 		display: flex;
 	}
@@ -156,7 +156,7 @@
 	}
 }
 
-@media (--mq-lg) {
+@media (min-width: 64em) {
 	.lg-flex {
 		display: flex;
 	}

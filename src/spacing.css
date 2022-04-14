@@ -1017,7 +1017,7 @@
 	padding-bottom: var(--rem);
 }
 
-@media (--mq-md) {
+@media (min-width: 40em) {
 	.md-m-auto {
 		margin: auto;
 	}
@@ -1905,7 +1905,7 @@
 	}
 }
 
-@media (--mq-lg) {
+@media (min-width: 64em) {
 	.lg-m-auto {
 		margin: auto;
 	}
