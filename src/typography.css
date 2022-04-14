@@ -72,24 +72,11 @@
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff")
-			format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
 /* font-family */
 .inter {
 	font-family: var(--inter);
 }
-.noto-serif {
-	font-family: var(--noto-serif);
-}
+
 .font-inherit {
 	font-family: inherit;
 }
@@ -199,6 +186,224 @@
 .overline-small {
 	font-size: var(--overline-small);
 	line-height: var(--line-height);
+}
+
+@media (--mq-md) {
+	/* font-size */
+	.md-h1,
+	.md-title-1 {
+		--line-height: 1.1;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: var(--title-1);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h2,
+	.md-title-2,
+	.md-title-display-1 {
+		--line-height: 1.28;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: var(--title-2);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h3,
+	.md-title-3,
+	.md-title-display-2 {
+		--line-height: 1.16;
+		--letter-spacing: var(--letter-spacing-6);
+		font-size: var(--title-3);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h4,
+	.md-title-4,
+	.md-title-display-3,
+	.md-quote {
+		--line-height: 1.2;
+		--letter-spacing: var(--letter-spacing-5);
+		font-size: var(--title-4);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h5,
+	.md-title-5,
+	.md-title-display-4 {
+		--line-height: 1.25;
+		--letter-spacing: var(--letter-spacing-4);
+		font-size: var(--title-5);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h6,
+	.md-title-6,
+	.md-title-display-5 {
+		--letter-spacing: var(--letter-spacing-3);
+		font-size: var(--title-6);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-lg,
+	.md-title-7,
+	.md-title-display-6 {
+		--line-height: 1.6;
+		--letter-spacing: var(--letter-spacing-2);
+		font-size: var(--title-7);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-md,
+	.md-copy {
+		--letter-spacing: var(--letter-spacing-1);
+		font-size: var(--copy);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-normal,
+	.md-body {
+		--line-height: 1.5;
+		font-size: var(--body);
+		line-height: var(--line-height);
+	}
+	.md-fs-sm,
+	.md-label {
+		--line-height: 1.71;
+		font-size: var(--label);
+		line-height: var(--line-height);
+	}
+	.md-fs-xs,
+	.md-caption {
+		font-size: var(--caption);
+		line-height: var(--line-height);
+	}
+	.md-fs-2xs,
+	.md-small {
+		--line-height: 1.2;
+		font-size: var(--small);
+		line-height: var(--line-height);
+	}
+	.md-fs-3xs,
+	.md-overline-big {
+		--line-height: 1.09;
+		--letter-spacing: 0.125rem;
+		font-size: var(--overline-big);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-4xs,
+	.md-overline-small {
+		font-size: var(--overline-small);
+		line-height: var(--line-height);
+	}
+}
+
+@media (--mq-lg) {
+	/* font-size */
+	.lg-h1,
+	.lg-title-1 {
+		--line-height: 1.1;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: var(--title-1);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h2,
+	.lg-title-2,
+	.lg-title-display-1 {
+		--line-height: 1.28;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: var(--title-2);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h3,
+	.lg-title-3,
+	.lg-title-display-2 {
+		--line-height: 1.16;
+		--letter-spacing: var(--letter-spacing-6);
+		font-size: var(--title-3);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h4,
+	.lg-title-4,
+	.lg-title-display-3,
+	.lg-quote {
+		--line-height: 1.2;
+		--letter-spacing: var(--letter-spacing-5);
+		font-size: var(--title-4);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h5,
+	.lg-title-5,
+	.lg-title-display-4 {
+		--line-height: 1.25;
+		--letter-spacing: var(--letter-spacing-4);
+		font-size: var(--title-5);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h6,
+	.lg-title-6,
+	.lg-title-display-5 {
+		--letter-spacing: var(--letter-spacing-3);
+		font-size: var(--title-6);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-lg,
+	.lg-title-7,
+	.lg-title-display-6 {
+		--line-height: 1.6;
+		--letter-spacing: var(--letter-spacing-2);
+		font-size: var(--title-7);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-lg,
+	.lg-copy {
+		--letter-spacing: var(--letter-spacing-1);
+		font-size: var(--copy);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-normal,
+	.lg-body {
+		--line-height: 1.5;
+		font-size: var(--body);
+		line-height: var(--line-height);
+	}
+	.lg-fs-sm,
+	.lg-label {
+		--line-height: 1.71;
+		font-size: var(--label);
+		line-height: var(--line-height);
+	}
+	.lg-fs-xs,
+	.lg-caption {
+		font-size: var(--caption);
+		line-height: var(--line-height);
+	}
+	.lg-fs-2xs,
+	.lg-small {
+		--line-height: 1.2;
+		font-size: var(--small);
+		line-height: var(--line-height);
+	}
+	.lg-fs-3xs,
+	.lg-overline-big {
+		--line-height: 1.09;
+		--letter-spacing: 0.125rem;
+		font-size: var(--overline-big);
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-4xs,
+	.lg-overline-small {
+		font-size: var(--overline-small);
+		line-height: var(--line-height);
+	}
 }
 
 .fs-scale {
