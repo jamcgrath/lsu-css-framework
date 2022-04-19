@@ -506,3 +506,38 @@
 .nowrap {
 	white-space: nowrap;
 }
+
+@media (min-width: 40em) {
+	.md-text-center {
+		text-align: center;
+	}
+	.md-text-start {
+		text-align: start;
+	}
+	.md-text-end {
+		text-align: end;
+	}
+	.md-text-left {
+		text-align: left;
+	}
+	.md-text-right {
+		text-align: right;
+	}
+}
+@media (min-width: 64em) {
+	.lg-text-center {
+		text-align: center;
+	}
+	.lg-text-start {
+		text-align: start;
+	}
+	.lg-text-end {
+		text-align: end;
+	}
+	.lg-text-left {
+		text-align: left;
+	}
+	.lg-text-right {
+		text-align: right;
+	}
+}
