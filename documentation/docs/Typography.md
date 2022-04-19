@@ -50,6 +50,8 @@
 | .overline-small                          | font-size: var(--overline-small); | .5625rem | 9px  |
 | .fs-inherit                              | font-size: inherit;               | x        | x    |
 
+prefix with `-md` or `lg-` for media query modifiers
+
 ### font-size custom properties
 
 ```css
@@ -126,6 +128,8 @@
 | .text-right  | text-align: right;  |
 | .text-start  | text-align: start;  |
 | .text-end    | text-align: end;    |
+
+prefix with `-md` or `lg-` for media query modifiers
 
 ## text decoration
 
