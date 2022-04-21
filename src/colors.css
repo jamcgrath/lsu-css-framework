@@ -130,25 +130,36 @@
 .bg-info {
 	background-color: var(--color-info);
 }
-.bg-info-light {
+.bg-info-light,
+.bg-opacity-info {
 	background-color: var(--color-info-light);
 }
 .bg-success {
 	background-color: var(--color-success);
 }
-.bg-success-light {
+.bg-success-light,
+.bg-opacity-success {
 	background-color: var(--color-success-light);
 }
 .bg-alert {
 	background-color: var(--color-alert);
 }
+.bg-alert-light,
+.bg-opacity-alert {
+	background-color: var(--color-alert-light);
+}
 .bg-warning {
 	background-color: var(--color-warning);
+}
+.bg-warning-light, 
+.bg-opacity-warning {
+	background-color: var(--color-warning-light);
 }
 .bg-error {
 	background-color: var(--color-error);
 }
-.bg-error-light {
+.bg-error-light,
+.bg-opacity-error {
 	background-color: var(--color-error-light);
 }
 .bg-error-semi-light {
