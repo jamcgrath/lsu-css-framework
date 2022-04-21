@@ -616,7 +616,8 @@ html:focus-within {
 	background-color: var(--color-info);
 }
 
-.bg-info-light {
+.bg-info-light,
+.bg-opacity-info {
 	background-color: #e5edfe;
 	background-color: var(--color-info-light);
 }
@@ -626,7 +627,8 @@ html:focus-within {
 	background-color: var(--color-success);
 }
 
-.bg-success-light {
+.bg-success-light,
+.bg-opacity-success {
 	background-color: #d9f6ee;
 	background-color: var(--color-success-light);
 }
@@ -636,9 +638,21 @@ html:focus-within {
 	background-color: var(--color-alert);
 }
 
+.bg-alert-light,
+.bg-opacity-alert {
+	background-color: #fff8e7;
+	background-color: var(--color-alert-light);
+}
+
 .bg-warning {
 	background-color: #ffa26b;
 	background-color: var(--color-warning);
+}
+
+.bg-warning-light,
+.bg-opacity-warning {
+	background-color: #fff1e9;
+	background-color: var(--color-warning-light);
 }
 
 .bg-error {
@@ -646,7 +660,8 @@ html:focus-within {
 	background-color: var(--color-error);
 }
 
-.bg-error-light {
+.bg-error-light,
+.bg-opacity-error {
 	background-color: #ffe8eb;
 	background-color: var(--color-error-light);
 }
@@ -850,26 +865,11 @@ html:focus-within {
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Noto Serif TC", serif;
-	src: url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff2")
-			format("woff2"),
-		url("https://new-cdn.mamamia.com.au/mamamia-courses-backend.appspot.com/static/fonts/notoseriftc-regular.woff")
-			format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
 /* font-family */
 
 .inter {
 	font-family: "Inter", sans-serif;
 	font-family: var(--inter);
-}
-
-.noto-serif {
-	font-family: var(--noto-serif);
 }
 
 .font-inherit {
@@ -1034,6 +1034,298 @@ html:focus-within {
 	line-height: var(--line-height);
 }
 
+@media (min-width: 40em) {
+	/* font-size */
+	.md-h1,
+	.md-title-1 {
+		--line-height: 1.1;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: 5rem;
+		font-size: var(--title-1);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h2,
+	.md-title-2,
+	.md-title-display-1 {
+		--line-height: 1.28;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: 4rem;
+		font-size: var(--title-2);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h3,
+	.md-title-3,
+	.md-title-display-2 {
+		--line-height: 1.16;
+		--letter-spacing: var(--letter-spacing-6);
+		font-size: 3rem;
+		font-size: var(--title-3);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h4,
+	.md-title-4,
+	.md-title-display-3,
+	.md-quote {
+		--line-height: 1.2;
+		--letter-spacing: var(--letter-spacing-5);
+		font-size: 2.5rem;
+		font-size: var(--title-4);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h5,
+	.md-title-5,
+	.md-title-display-4 {
+		--line-height: 1.25;
+		--letter-spacing: var(--letter-spacing-4);
+		font-size: 2rem;
+		font-size: var(--title-5);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-h6,
+	.md-title-6,
+	.md-title-display-5 {
+		--letter-spacing: var(--letter-spacing-3);
+		font-size: 1.5rem;
+		font-size: var(--title-6);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-lg,
+	.md-title-7,
+	.md-title-display-6 {
+		--line-height: 1.6;
+		--letter-spacing: var(--letter-spacing-2);
+		font-size: 1.25rem;
+		font-size: var(--title-7);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-md,
+	.md-copy {
+		--letter-spacing: var(--letter-spacing-1);
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-normal,
+	.md-body {
+		--line-height: 1.5;
+		font-size: 1rem;
+		font-size: var(--body);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.md-fs-sm,
+	.md-label {
+		--line-height: 1.71;
+		font-size: 0.875rem;
+		font-size: var(--label);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.md-fs-xs,
+	.md-caption {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.md-fs-2xs,
+	.md-small {
+		--line-height: 1.2;
+		font-size: 0.625rem;
+		font-size: var(--small);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.md-fs-3xs,
+	.md-overline-big {
+		--line-height: 1.09;
+		--letter-spacing: 0.125rem;
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.md-fs-4xs,
+	.md-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+}
+
+@media (min-width: 64em) {
+	/* font-size */
+	.lg-h1,
+	.lg-title-1 {
+		--line-height: 1.1;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: 5rem;
+		font-size: var(--title-1);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h2,
+	.lg-title-2,
+	.lg-title-display-1 {
+		--line-height: 1.28;
+		--letter-spacing: var(--letter-spacing-7);
+		font-size: 4rem;
+		font-size: var(--title-2);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h3,
+	.lg-title-3,
+	.lg-title-display-2 {
+		--line-height: 1.16;
+		--letter-spacing: var(--letter-spacing-6);
+		font-size: 3rem;
+		font-size: var(--title-3);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h4,
+	.lg-title-4,
+	.lg-title-display-3,
+	.lg-quote {
+		--line-height: 1.2;
+		--letter-spacing: var(--letter-spacing-5);
+		font-size: 2.5rem;
+		font-size: var(--title-4);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h5,
+	.lg-title-5,
+	.lg-title-display-4 {
+		--line-height: 1.25;
+		--letter-spacing: var(--letter-spacing-4);
+		font-size: 2rem;
+		font-size: var(--title-5);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-h6,
+	.lg-title-6,
+	.lg-title-display-5 {
+		--letter-spacing: var(--letter-spacing-3);
+		font-size: 1.5rem;
+		font-size: var(--title-6);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-lg,
+	.lg-title-7,
+	.lg-title-display-6 {
+		--line-height: 1.6;
+		--letter-spacing: var(--letter-spacing-2);
+		font-size: 1.25rem;
+		font-size: var(--title-7);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-lg,
+	.lg-copy {
+		--letter-spacing: var(--letter-spacing-1);
+		font-size: 1.125rem;
+		font-size: var(--copy);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-normal,
+	.lg-body {
+		--line-height: 1.5;
+		font-size: 1rem;
+		font-size: var(--body);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.lg-fs-sm,
+	.lg-label {
+		--line-height: 1.71;
+		font-size: 0.875rem;
+		font-size: var(--label);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.lg-fs-xs,
+	.lg-caption {
+		font-size: 0.75rem;
+		font-size: var(--caption);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.lg-fs-2xs,
+	.lg-small {
+		--line-height: 1.2;
+		font-size: 0.625rem;
+		font-size: var(--small);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+	.lg-fs-3xs,
+	.lg-overline-big {
+		--line-height: 1.09;
+		--letter-spacing: 0.125rem;
+		font-size: 0.6875rem;
+		font-size: var(--overline-big);
+		line-height: 1.3;
+		line-height: var(--line-height);
+		letter-spacing: ;
+		letter-spacing: var(--letter-spacing);
+	}
+	.lg-fs-4xs,
+	.lg-overline-small {
+		font-size: 0.5625rem;
+		font-size: var(--overline-small);
+		line-height: 1.3;
+		line-height: var(--line-height);
+	}
+}
+
 .fs-scale {
 	--root-fs: 16;
 	--fs-min: 1rem;
@@ -1170,6 +1462,54 @@ html:focus-within {
 
 .nowrap {
 	white-space: nowrap;
+}
+
+@media (min-width: 40em) {
+	.md-text-center {
+		text-align: center;
+	}
+	[dir="ltr"] .md-text-start {
+		text-align: left;
+	}
+	[dir="rtl"] .md-text-start {
+		text-align: right;
+	}
+	[dir="ltr"] .md-text-end {
+		text-align: right;
+	}
+	[dir="rtl"] .md-text-end {
+		text-align: left;
+	}
+	.md-text-left {
+		text-align: left;
+	}
+	.md-text-right {
+		text-align: right;
+	}
+}
+
+@media (min-width: 64em) {
+	.lg-text-center {
+		text-align: center;
+	}
+	[dir="ltr"] .lg-text-start {
+		text-align: left;
+	}
+	[dir="rtl"] .lg-text-start {
+		text-align: right;
+	}
+	[dir="ltr"] .lg-text-end {
+		text-align: right;
+	}
+	[dir="rtl"] .lg-text-end {
+		text-align: left;
+	}
+	.lg-text-left {
+		text-align: left;
+	}
+	.lg-text-right {
+		text-align: right;
+	}
 }
 
 :root {
@@ -2824,7 +3164,7 @@ html:focus-within {
 	padding-bottom: var(--rem);
 }
 
-@media (min-width: 40.001em) {
+@media (min-width: 40em) {
 	.md-m-auto {
 		margin: auto;
 	}
@@ -4032,7 +4372,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 64.001em) {
+@media (min-width: 64em) {
 	.lg-m-auto {
 		margin: auto;
 	}
@@ -5324,7 +5664,7 @@ html:focus-within {
 	flex: 4;
 }
 
-@media (min-width: 40.001em) {
+@media (min-width: 40em) {
 	.md-flex {
 		display: flex;
 	}
@@ -5394,7 +5734,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 64.001em) {
+@media (min-width: 64em) {
 	.lg-flex {
 		display: flex;
 	}
@@ -5508,7 +5848,7 @@ html:focus-within {
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-@media (min-width: 40.001em) {
+@media (min-width: 40em) {
 	.md-grid {
 		display: grid;
 	}
@@ -5526,7 +5866,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 64.001em) {
+@media (min-width: 64em) {
 	.lg-grid {
 		display: grid;
 	}
@@ -5565,7 +5905,7 @@ html:focus-within {
 	display: none;
 }
 
-@media (min-width: 40.001em) {
+@media (min-width: 40em) {
 	.md-block {
 		display: block;
 	}
@@ -5577,7 +5917,7 @@ html:focus-within {
 	}
 }
 
-@media (min-width: 64.001em) {
+@media (min-width: 64em) {
 	.lg-block {
 		display: block;
 	}
