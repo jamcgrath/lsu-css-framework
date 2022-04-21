@@ -10,7 +10,7 @@ To make a background color, prefix `bg-` to the color class.
 | .courses-purple   | color: var(--color-courses-purple);   | <span class="bg-courses-purple py-3 flex justify-center">#f1c7ff;</span>             |
 | .courses-mint     | color: var(--color-courses-mint);     | <span class="bg-courses-mint py-3 flex justify-center">#b5f0ed;</span>               |
 | .info             | color: var(--color-info);             | <span class="bg-info py-3 flex justify-center">#5487f5;</span>                       |
-| .info-light      | color: var(--color-info-light);       | <span class="bg-info-light py-3 flex justify-center">#e5edfe;</span>                 |
+| .info-light       | color: var(--color-info-light);       | <span class="bg-info-light py-3 flex justify-center">#e5edfe;</span>                 |
 | .success          | color: var(--color-success);          | <span class="bg-success py-3 flex justify-center">#00c48c;</span>                    |
 | .success-light    | color: var(--color-success-light);    | <span class="bg-success-light py-3 flex justify-center">#d9f6ee;</span>              |
 | .alert            | color: var(--color-alert);            | <span class="bg-alert py-3 flex justify-center">#f1b422;</span>                      |
@@ -48,36 +48,36 @@ To make a background color, prefix `bg-` to the color class.
 
 ## Background classes
 
-| Class name          						| Value                                            |
-| --------------------						| ------------------------------------------------ |
-| .bg-brand-mint      						| background-color: var(--color-brand-mint);       |
-| .bg-brand-deep-blue 						| background-color: var(--color-brand-deep-blue);  |
-| .bg-brand-hot-pink  						| background-color: var(--color-brand-hot-pink);   |
-| .bg-brand-canary    						| background-color: var(--color-brand-canary);     |
-| .bg-courses-green   						| background-color: var(--color-courses-green);    |
-| .bg-courses-purple  						| background-color: var(--color-courses-purple);   |
-| .bg-courses-mint    						| background-color: var(--color-courses-mint);     |
-| .bg-info<br>.bg-opacity-info  			| background-color: var(--color-info);             |
-| .bg-info-light       						| background-color: var(--color-info-light);       |
-| .bg-success          						| background-color: var(--color-success);          |
-| .bg-success-light<br>.bg-opacity-success  | background-color: var(--color-success-light);    |
-| .bg-alert            						| background-color: var(--color-alert);            |
-| .bg-alert-light<br>.bg-opacity-alert      | background-color: var(--color-alert-light);      |
-| .bg-warning          						| background-color: var(--color-warning);          |
-| .bg-warning-light<br>.bg-opacity-warning  | background-color: var(--color-warning-light);    |
-| .bg-error            						| background-color: var(--color-error);            |
-| .bg-error-light<br>.bg-opacity-error      | background-color: var(--color-error-light);      |
-| .bg-error-semi-light 						| background-color: var(--color-error-semi-light); |
-| .bg-gray             						| background-color: var(--color-gray);             |
-| .bg-gray-100         						| background-color: var(--color-gray-100);         |
-| .bg-gray-200         						| background-color: var(--color-gray-200);         |
-| .bg-gray-300         						| background-color: var(--color-gray-300);         |
-| .bg-gray-400         						| background-color: var(--color-gray-400);         |
-| .bg-gray-500         						| background-color: var(--color-gray-500);         |
-| .bg-gray-600         						| background-color: var(--color-gray-600);         |
-| .bg-gray-700         						| background-color: var(--color-gray-700);         |
-| .bg-gray-800         						| background-color: var(--color-gray-800);         |
-| .bg-gray-900         						| background-color: var(--color-gray-900);         |
+| Class name                                | Value                                            |
+| ----------------------------------------- | ------------------------------------------------ |
+| .bg-brand-mint                            | background-color: var(--color-brand-mint);       |
+| .bg-brand-deep-blue                       | background-color: var(--color-brand-deep-blue);  |
+| .bg-brand-hot-pink                        | background-color: var(--color-brand-hot-pink);   |
+| .bg-brand-canary                          | background-color: var(--color-brand-canary);     |
+| .bg-courses-green                         | background-color: var(--color-courses-green);    |
+| .bg-courses-purple                        | background-color: var(--color-courses-purple);   |
+| .bg-courses-mint                          | background-color: var(--color-courses-mint);     |
+| .bg-info<br/>.bg-opacity-info             | background-color: var(--color-info);             |
+| .bg-info-light                            | background-color: var(--color-info-light);       |
+| .bg-success                               | background-color: var(--color-success);          |
+| .bg-success-light<br/>.bg-opacity-success | background-color: var(--color-success-light);    |
+| .bg-alert                                 | background-color: var(--color-alert);            |
+| .bg-alert-light<br/>.bg-opacity-alert     | background-color: var(--color-alert-light);      |
+| .bg-warning                               | background-color: var(--color-warning);          |
+| .bg-warning-light<br/>.bg-opacity-warning | background-color: var(--color-warning-light);    |
+| .bg-error                                 | background-color: var(--color-error);            |
+| .bg-error-light<br/>.bg-opacity-error     | background-color: var(--color-error-light);      |
+| .bg-error-semi-light                      | background-color: var(--color-error-semi-light); |
+| .bg-gray                                  | background-color: var(--color-gray);             |
+| .bg-gray-100                              | background-color: var(--color-gray-100);         |
+| .bg-gray-200                              | background-color: var(--color-gray-200);         |
+| .bg-gray-300                              | background-color: var(--color-gray-300);         |
+| .bg-gray-400                              | background-color: var(--color-gray-400);         |
+| .bg-gray-500                              | background-color: var(--color-gray-500);         |
+| .bg-gray-600                              | background-color: var(--color-gray-600);         |
+| .bg-gray-700                              | background-color: var(--color-gray-700);         |
+| .bg-gray-800                              | background-color: var(--color-gray-800);         |
+| .bg-gray-900                              | background-color: var(--color-gray-900);         |
 
 ## Color Custom Properties
 
