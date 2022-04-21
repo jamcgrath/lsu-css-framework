@@ -34,71 +34,71 @@
 
 ### margin horizontal
 
-| Class name | Value                                                             | rem     | px   |
-| ---------- | ----------------------------------------------------------------- | ------- | ---- |
-| .mx-0      | margin-left: 0;<br/> margin-right: 0;                             | 0       | 0    |
-| .mx-1      | margin-left: var(--space-1);<br/> margin-right: var(--space-1);   | 0.25rem | 4px  |
-| .mx-2      | margin-left: var(--space-2);<br/> margin-right: var(--space-2);   | 0.5rem  | 8px  |
-| .mx-3      | margin-left: var(--space-3);<br/> margin-right: var(--space-3);   | 0.75rem | 12px |
-| .mx-4      | margin-left: var(--space-4);<br/> margin-right: var(--space-4);   | 1rem    | 16px |
-| .mx-5      | margin-left: var(--space-5);<br/> margin-right: var(--space-5);   | 1.25rem | 20px |
-| .mx-6      | margin-left: var(--space-6);<br/> margin-right: var(--space-6);   | 1.5rem  | 24px |
-| .mx-7      | margin-left: var(--space-7);<br/> margin-right: var(--space-7);   | 1.75rem | 28px |
-| .mx-8      | margin-left: var(--space-8);<br/> margin-right: var(--space-8);   | 2rem    | 32px |
-| .mx-9      | margin-left: var(--space-9);<br/> margin-right: var(--space-9);   | 2.25rem | 36px |
-| .mx-10     | margin-left: var(--space-10);<br/> margin-right: var(--space-10); | 2.5rem  | 40px |
-| .mx-11     | margin-left: var(--space-11);<br/> margin-right: var(--space-11); | 2.75rem | 44px |
-| .mx-12     | margin-left: var(--space-12);<br/> margin-right: var(--space-12); | 3rem    | 48px |
-| .mx-13     | margin-left: var(--space-13);<br/> margin-right: var(--space-13); | 3.25rem | 52px |
-| .mx-14     | margin-left: var(--space-14);<br/> margin-right: var(--space-14); | 3.5rem  | 56px |
-| .mx-15     | margin-left: var(--space-15);<br/> margin-right: var(--space-15); | 3.75rem | 60px |
-| .mx-16     | margin-left: var(--space-16);<br/> margin-right: var(--space-16); | 4rem    | 64px |
-| .mx-auto   | margin-left: auto;<br/> margin-right: auto;                       | x       | x    |
-|            |                                                                   |         |      |
-| .mx-1px    | margin-left: var(--space-1px);<br>margin-right: var(--space-1px ) |         | 1px  |
-| .mx-2px    | margin-left: var(--space-2px);<br>margin-right: var(--space-2px ) |         | 2px  |
-| .mx-3px    | margin-left: var(--space-3px);<br>margin-right: var(--space-3px ) |         | 3px  |
-| .mx-4px    | margin-left: var(--space-4px);<br>margin-right: var(--space-4px ) |         | 4px  |
-| .mx-5px    | margin-left: var(--space-5px);<br>margin-right: var(--space-5px ) |         | 5px  |
-| .mx-6px    | margin-left: var(--space-6px);<br>margin-right: var(--space-6px ) |         | 6px  |
-| .mx-7px    | margin-left: var(--space-7px);<br>margin-right: var(--space-7px ) |         | 7px  |
-| .mx-8px    | margin-left: var(--space-8px);<br>margin-right: var(--space-8px ) |         | 8px  |
-| .mx-9px    | margin-left: var(--space-9px);<br>margin-right: var(--space-9px ) |         | 9px  |
-| .mx-10px   | margin-left: var(--space-10px);<br>margin-right:var(--space-10px) |         | 10px |
+| Class name | Value                                                              | rem     | px   |
+| ---------- | ------------------------------------------------------------------ | ------- | ---- |
+| .mx-0      | margin-left: 0;<br/> margin-right: 0;                              | 0       | 0    |
+| .mx-1      | margin-left: var(--space-1);<br/> margin-right: var(--space-1);    | 0.25rem | 4px  |
+| .mx-2      | margin-left: var(--space-2);<br/> margin-right: var(--space-2);    | 0.5rem  | 8px  |
+| .mx-3      | margin-left: var(--space-3);<br/> margin-right: var(--space-3);    | 0.75rem | 12px |
+| .mx-4      | margin-left: var(--space-4);<br/> margin-right: var(--space-4);    | 1rem    | 16px |
+| .mx-5      | margin-left: var(--space-5);<br/> margin-right: var(--space-5);    | 1.25rem | 20px |
+| .mx-6      | margin-left: var(--space-6);<br/> margin-right: var(--space-6);    | 1.5rem  | 24px |
+| .mx-7      | margin-left: var(--space-7);<br/> margin-right: var(--space-7);    | 1.75rem | 28px |
+| .mx-8      | margin-left: var(--space-8);<br/> margin-right: var(--space-8);    | 2rem    | 32px |
+| .mx-9      | margin-left: var(--space-9);<br/> margin-right: var(--space-9);    | 2.25rem | 36px |
+| .mx-10     | margin-left: var(--space-10);<br/> margin-right: var(--space-10);  | 2.5rem  | 40px |
+| .mx-11     | margin-left: var(--space-11);<br/> margin-right: var(--space-11);  | 2.75rem | 44px |
+| .mx-12     | margin-left: var(--space-12);<br/> margin-right: var(--space-12);  | 3rem    | 48px |
+| .mx-13     | margin-left: var(--space-13);<br/> margin-right: var(--space-13);  | 3.25rem | 52px |
+| .mx-14     | margin-left: var(--space-14);<br/> margin-right: var(--space-14);  | 3.5rem  | 56px |
+| .mx-15     | margin-left: var(--space-15);<br/> margin-right: var(--space-15);  | 3.75rem | 60px |
+| .mx-16     | margin-left: var(--space-16);<br/> margin-right: var(--space-16);  | 4rem    | 64px |
+| .mx-auto   | margin-left: auto;<br/> margin-right: auto;                        | x       | x    |
+|            |                                                                    |         |      |
+| .mx-1px    | margin-left: var(--space-1px);<br/>margin-right: var(--space-1px ) |         | 1px  |
+| .mx-2px    | margin-left: var(--space-2px);<br/>margin-right: var(--space-2px ) |         | 2px  |
+| .mx-3px    | margin-left: var(--space-3px);<br/>margin-right: var(--space-3px ) |         | 3px  |
+| .mx-4px    | margin-left: var(--space-4px);<br/>margin-right: var(--space-4px ) |         | 4px  |
+| .mx-5px    | margin-left: var(--space-5px);<br/>margin-right: var(--space-5px ) |         | 5px  |
+| .mx-6px    | margin-left: var(--space-6px);<br/>margin-right: var(--space-6px ) |         | 6px  |
+| .mx-7px    | margin-left: var(--space-7px);<br/>margin-right: var(--space-7px ) |         | 7px  |
+| .mx-8px    | margin-left: var(--space-8px);<br/>margin-right: var(--space-8px ) |         | 8px  |
+| .mx-9px    | margin-left: var(--space-9px);<br/>margin-right: var(--space-9px ) |         | 9px  |
+| .mx-10px   | margin-left: var(--space-10px);<br/>margin-right:var(--space-10px) |         | 10px |
 
 ### margin vertical
 
-| Class name | Value                                                             | rem     | px   |
-| ---------- | ----------------------------------------------------------------- | ------- | ---- |
-| .my-0      | margin-top: 0;<br/> margin-bottom: 0;                             | 0rem    | 0px  |
-| .my-1      | margin-top: var(--space-1);<br/> margin-bottom: var(--space-1);   | 0.25rem | 4px  |
-| .my-2      | margin-top: var(--space-2);<br/> margin-bottom: var(--space-2);   | 0.5rem  | 8px  |
-| .my-3      | margin-top: var(--space-3);<br/> margin-bottom: var(--space-3);   | 0.75rem | 12px |
-| .my-4      | margin-top: var(--space-4);<br/> margin-bottom: var(--space-4);   | 1rem    | 16px |
-| .my-5      | margin-top: var(--space-5);<br/> margin-bottom: var(--space-5);   | 1.25rem | 20px |
-| .my-6      | margin-top: var(--space-6);<br/> margin-bottom: var(--space-6);   | 1.5rem  | 24px |
-| .my-7      | margin-top: var(--space-7);<br/> margin-bottom: var(--space-7);   | 1.75rem | 28px |
-| .my-8      | margin-top: var(--space-8);<br/> margin-bottom: var(--space-8);   | 2rem    | 32px |
-| .my-9      | margin-top: var(--space-9);<br/> margin-bottom: var(--space-9);   | 2.25rem | 36px |
-| .my-10     | margin-top: var(--space-10);<br/> margin-bottom: var(--space-10); | 2.5rem  | 40px |
-| .my-11     | margin-top: var(--space-11);<br/> margin-bottom: var(--space-11); | 2.75rem | 44px |
-| .my-12     | margin-top: var(--space-12);<br/> margin-bottom: var(--space-12); | 3rem    | 48px |
-| .my-13     | margin-top: var(--space-13);<br/> margin-bottom: var(--space-13); | 3.25rem | 52px |
-| .my-14     | margin-top: var(--space-14);<br/> margin-bottom: var(--space-14); | 3.5rem  | 56px |
-| .my-15     | margin-top: var(--space-15);<br/> margin-bottom: var(--space-15); | 3.75rem | 60px |
-| .my-16     | margin-top: var(--space-16);<br/> margin-bottom: var(--space-16); | 4rem    | 64px |
-| .my-auto   | margin-top: auto;<br/> margin-bottom: auto;                       | x       | x    |
-|            |                                                                   |         |      |
-| .my-1px    | margin-top: var(space--1px);<br>margin-bottom: var(--space-1px )  |         | 1px  |
-| .my-2px    | margin-top: var(space--2px);<br>margin-bottom: var(--space-2px )  |         | 2px  |
-| .my-3px    | margin-top: var(space--3px);<br>margin-bottom: var(--space-3px )  |         | 3px  |
-| .my-4px    | margin-top: var(space--4px);<br>margin-bottom: var(--space-4px )  |         | 4px  |
-| .my-5px    | margin-top: var(space--5px);<br>margin-bottom: var(--space-5px )  |         | 5px  |
-| .my-6px    | margin-top: var(space--6px);<br>margin-bottom: var(--space-6px )  |         | 6px  |
-| .my-7px    | margin-top: var(space--7px);<br>margin-bottom: var(--space-7px )  |         | 7px  |
-| .my-8px    | margin-top: var(space--8px);<br>margin-bottom: var(--space-8px )  |         | 8px  |
-| .my-9px    | margin-top: var(space--9px);<br>margin-bottom: var(--space-9px )  |         | 9px  |
-| .my-10px   | margin-top: var(space--10px);<br>margin-bottom:var(--space-10px ) |         | 10px |
+| Class name | Value                                                              | rem     | px   |
+| ---------- | ------------------------------------------------------------------ | ------- | ---- |
+| .my-0      | margin-top: 0;<br/> margin-bottom: 0;                              | 0rem    | 0px  |
+| .my-1      | margin-top: var(--space-1);<br/> margin-bottom: var(--space-1);    | 0.25rem | 4px  |
+| .my-2      | margin-top: var(--space-2);<br/> margin-bottom: var(--space-2);    | 0.5rem  | 8px  |
+| .my-3      | margin-top: var(--space-3);<br/> margin-bottom: var(--space-3);    | 0.75rem | 12px |
+| .my-4      | margin-top: var(--space-4);<br/> margin-bottom: var(--space-4);    | 1rem    | 16px |
+| .my-5      | margin-top: var(--space-5);<br/> margin-bottom: var(--space-5);    | 1.25rem | 20px |
+| .my-6      | margin-top: var(--space-6);<br/> margin-bottom: var(--space-6);    | 1.5rem  | 24px |
+| .my-7      | margin-top: var(--space-7);<br/> margin-bottom: var(--space-7);    | 1.75rem | 28px |
+| .my-8      | margin-top: var(--space-8);<br/> margin-bottom: var(--space-8);    | 2rem    | 32px |
+| .my-9      | margin-top: var(--space-9);<br/> margin-bottom: var(--space-9);    | 2.25rem | 36px |
+| .my-10     | margin-top: var(--space-10);<br/> margin-bottom: var(--space-10);  | 2.5rem  | 40px |
+| .my-11     | margin-top: var(--space-11);<br/> margin-bottom: var(--space-11);  | 2.75rem | 44px |
+| .my-12     | margin-top: var(--space-12);<br/> margin-bottom: var(--space-12);  | 3rem    | 48px |
+| .my-13     | margin-top: var(--space-13);<br/> margin-bottom: var(--space-13);  | 3.25rem | 52px |
+| .my-14     | margin-top: var(--space-14);<br/> margin-bottom: var(--space-14);  | 3.5rem  | 56px |
+| .my-15     | margin-top: var(--space-15);<br/> margin-bottom: var(--space-15);  | 3.75rem | 60px |
+| .my-16     | margin-top: var(--space-16);<br/> margin-bottom: var(--space-16);  | 4rem    | 64px |
+| .my-auto   | margin-top: auto;<br/> margin-bottom: auto;                        | x       | x    |
+|            |                                                                    |         |      |
+| .my-1px    | margin-top: var(space--1px);<br/>margin-bottom: var(--space-1px )  |         | 1px  |
+| .my-2px    | margin-top: var(space--2px);<br/>margin-bottom: var(--space-2px )  |         | 2px  |
+| .my-3px    | margin-top: var(space--3px);<br/>margin-bottom: var(--space-3px )  |         | 3px  |
+| .my-4px    | margin-top: var(space--4px);<br/>margin-bottom: var(--space-4px )  |         | 4px  |
+| .my-5px    | margin-top: var(space--5px);<br/>margin-bottom: var(--space-5px )  |         | 5px  |
+| .my-6px    | margin-top: var(space--6px);<br/>margin-bottom: var(--space-6px )  |         | 6px  |
+| .my-7px    | margin-top: var(space--7px);<br/>margin-bottom: var(--space-7px )  |         | 7px  |
+| .my-8px    | margin-top: var(space--8px);<br/>margin-bottom: var(--space-8px )  |         | 8px  |
+| .my-9px    | margin-top: var(space--9px);<br/>margin-bottom: var(--space-9px )  |         | 9px  |
+| .my-10px   | margin-top: var(space--10px);<br/>margin-bottom:var(--space-10px ) |         | 10px |
 
 ### margin individual sides
 
