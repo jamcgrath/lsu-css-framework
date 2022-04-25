@@ -5,21 +5,17 @@
 }
 
 .sm-container {
-	--sm-container: 640px;
 	width: 100%;
-	max-width: var(--sm-container);
-}
+	max-width: 640px;
 
 .md-container {
-	--md-container: 768px;
 	width: 100%;
-	max-width: var(--md-container);
+	max-width: 768px;
 }
 
 .lg-container {
-	--lg-container: 1024px;
 	width: 100%;
-	max-width: var(--lg-container);
+	max-width: 1024px;
 }
 
 /* break child out of parent container */
