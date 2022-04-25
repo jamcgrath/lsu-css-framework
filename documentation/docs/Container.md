@@ -4,6 +4,24 @@
 	max-width: 1160px;
 }
 
+.sm-container {
+	--sm-container: 640px;
+	width: 100%;
+	max-width: var(--sm-container);
+}
+
+.md-container {
+	--md-container: 768px;
+	width: 100%;
+	max-width: var(--md-container);
+}
+
+.lg-container {
+	--lg-container: 1024px;
+	width: 100%;
+	max-width: var(--lg-container);
+}
+
 /* break child out of parent container */
 .fullwidth {
 	width: 100vw;
