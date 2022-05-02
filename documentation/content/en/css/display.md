@@ -1,7 +1,7 @@
 ---
 title: Display
 description: ""
-position: 2
+position: 20
 category: CSS
 
 display:
@@ -11,7 +11,7 @@ display:
       [
         ["block", "display:block;"],
         ["inline-block", "display:inline-block;"],
-        [["sm-inline", "inline"], "display:inline;"],
+        [["inline", "display:inline;"],
         [["hidden", "[hidden]"], "display:hidden"],
         ["flex", "display:flex;"],
         ["flex-inline", "display:inline-flex;"],
@@ -22,4 +22,10 @@ display:
 
 <c-table pn="display"></c-table>
 
-prefix `sm-`, `md-` or `lg-` for media query modifiers
+## Media Queries
+
+Prefix `sm-`, `md-` or `lg-` for media query modifiers
+
+```html
+<div class="sm-block md-flex lg-hidden"></div>
+```

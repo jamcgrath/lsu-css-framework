@@ -1,7 +1,7 @@
 ---
 title: Cursor
 description: ""
-position: 2
+position: 20
 category: CSS
 
 cursor: {
