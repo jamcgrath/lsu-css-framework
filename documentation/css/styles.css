@@ -3,7 +3,7 @@ body .container {
 }
 main > .flex {
 	display: grid;
-	grid-template-columns: auto 1fr;
+	grid-template-columns: minmax(10%, 15%) 1fr;
 }
 main > .flex > aside {
 	min-width: 100%;
@@ -11,7 +11,7 @@ main > .flex > aside {
 
 main > .flex > aside + .flex {
 	display: grid;
-	grid-template-columns: 1fr auto;
+	grid-template-columns: 1fr minmax(10%, 15%);
 	width: 100%;
 }
 
