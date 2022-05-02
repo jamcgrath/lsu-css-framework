@@ -22,14 +22,14 @@
 							<button
 								v-for="(text, tIndex) in cell"
 								:key="tIndex"
-								v-text="text"
+								v-html="text"
 								@click="copyToClipboard(text)"
 								class="copy-button block px-1"
 							></button>
 						</template>
 						<button
 							v-else
-							v-text="cell"
+							v-html="cell"
 							@click="copyToClipboard(cell)"
 							class="copy-button block px-1"
 						></button>
