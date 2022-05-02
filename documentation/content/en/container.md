@@ -1,6 +1,6 @@
 ---
 title: Container
-description:
+description: ""
 position: 2
 category: CSS
 
