@@ -13,6 +13,9 @@ display:
         ["inline-block", "display:inline-block;"],
         [["sm-inline", "inline"], "display:inline;"],
         [["hidden", "[hidden]"], "display:hidden"],
+        ["flex", "display:flex;"],
+        ["flex-inline", "display:inline-flex;"],
+        ["grid", "display:grid;"],
       ],
   }
 ---
