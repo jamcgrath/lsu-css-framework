@@ -2,7 +2,7 @@
 title: Border Radius
 description: ""
 position: 2
-category: UI
+category: CSS
 
 brData: {
 	head: ["Class", "value"],
