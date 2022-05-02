@@ -1,41 +1,27 @@
-# Website
+# lsu css
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Setup
 
-### Installation
+Install dependencies:
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+npm run install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Development
 
-### Build
-
-```
-$ yarn build
+```bash
+npm run dev
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Static Generation
 
-### Deployment
+This will create the `dist/` directory for publishing to static hosting:
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm run generate
 ```
 
-Not using SSH:
+To preview the static generated app, run `npm run start`
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).

@@ -1,0 +1,20 @@
+body .container {
+	max-width: 100%;
+}
+main > .flex {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+main > .flex > aside {
+	min-width: 100%;
+}
+
+main > .flex > aside + .flex {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	width: 100%;
+}
+
+main > .flex > aside + .flex > div {
+	width: 100%;
+}
