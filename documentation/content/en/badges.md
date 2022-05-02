@@ -42,14 +42,14 @@ badgeColors: {
 }
 ---
 
-## Badge Default
+## Default
 
 <c-table pn="badgeDefault"></c-table>
 
-## Badge Size
+## Size
 
 <c-table pn="badgeSize"></c-table>
 
-## Badge Colors
+## Colors
 
 <c-table pn="badgeColors"></c-table>
