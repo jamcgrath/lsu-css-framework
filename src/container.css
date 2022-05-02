@@ -12,3 +12,15 @@
 	margin-left: -50vw;
 	margin-right: -50vw;
 }
+/* handle scrollbar on desktop */
+@media (min-width: 64em) {
+	.fullwidth {
+		width: calc(100vw - 16px);
+	}
+
+	@supports (scrollbar-gutter: stable both-edges) {
+		.fullwidth {
+			width: 100vw;
+		}
+	}
+}
