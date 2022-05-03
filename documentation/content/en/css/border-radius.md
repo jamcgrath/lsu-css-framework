@@ -12,7 +12,7 @@ brData: {
 		["br-16", "border-radius: 16px"],
 		["br-100", "border-radius: 100px"],
 		["br-120", "border-radius: 120px"],
-		["circle", ["border-radius: 50%","aspect-ratio: ;","width: var(--circle-width)","height: var(--circle-width)"]]
+		["circle", ["border-radius: 50%","aspect-ratio: 1","width: var(--circle-width)","height: var(--circle-width)"]]
 	]
 }
 ---
