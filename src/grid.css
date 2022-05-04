@@ -4,6 +4,7 @@
 	--grid-row-min: 1fr;
 	--grid-row-max: 1fr;
 	--grid-repeat: auto-fit;
+	--grid-fluid-min: 280px;
 }
 .grid {
 	display: grid;
@@ -20,6 +21,14 @@
 		minmax(var(--grid-row-min), var(--grid-row-max))
 	);
 }
+
+.grid-fluid {
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(min(var(--grid-min), 100%), 1fr)
+	);
+}
+
 .grid-column-1 {
 	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -49,6 +58,24 @@
 	.md-grid-column-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
+	.md-grid-column {
+		grid-template-columns: repeat(
+			var(--grid-repeat),
+			minmax(var(--grid-col-min), var(--grid-col-max))
+		);
+	}
+	.md-grid-row {
+		grid-template-rows: repeat(
+			var(--grid-repeat),
+			minmax(var(--grid-row-min), var(--grid-row-max))
+		);
+	}
+	.md-grid-fluid {
+		grid-template-columns: repeat(
+			auto-fit,
+			minmax(min(var(--grid-min), 100%), 1fr)
+		);
+	}
 }
 
 @media (min-width: 64em) {
@@ -66,5 +93,23 @@
 	}
 	.lg-grid-column-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+	.lg-grid-column {
+		grid-template-columns: repeat(
+			var(--grid-repeat),
+			minmax(var(--grid-col-min), var(--grid-col-max))
+		);
+	}
+	.lg-grid-row {
+		grid-template-rows: repeat(
+			var(--grid-repeat),
+			minmax(var(--grid-row-min), var(--grid-row-max))
+		);
+	}
+	.lg-grid-fluid {
+		grid-template-columns: repeat(
+			auto-fit,
+			minmax(min(var(--grid-min), 100%), 1fr)
+		);
 	}
 }
