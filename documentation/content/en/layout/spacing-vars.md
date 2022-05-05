@@ -43,19 +43,19 @@ spacingVars: {
 rootVars: {
 	head: ['Property'],
 	rows: [
-		["--base-fs: 16;"],
-		["--base-space: 4;"],
-		["--em-px: 16;"],
-		["--em-base: 16;"],
-		["--rem-px: 16;"],
-		["--rem-base: 16;"],
+		["--base-fs: 16"],
+		["--base-space: 4"],
+		["--em-px: 16"],
+		["--em-base: 16"],
+		["--rem-px: 16"],
+		["--rem-base: 16"],
 	]
 }
 
 remEmVars: {
 	head: ['Property'],
 	rows: [
-		["--em: calc(var(--em-px) / var(--em-base, 16) * 1em);"],
+		["--em: calc(var(--em-px) / var(--em-base, 16) * 1em)"],
 		["--rem: calc(var(--rem-px) / var(--rem-base, 16) * 1rem)"]
 	]
 }
