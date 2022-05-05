@@ -1,7 +1,6 @@
 :root {
 	--base-fs: 16;
 	--base-space: 4;
-	--space: 0;
 	--em-px: 16;
 	--em-base: 16;
 	--rem-px: 16;
@@ -39,8 +38,8 @@
 	--space-19: calc((var(--base-space) * 19) / var(--base-fs) * 1rem);
 	--space-20: calc((var(--base-space) * 20) / var(--base-fs) * 1rem);
 
-	--em: calc(var(--em-px) / var(--em-base) * 1em);
-	--rem: calc(var(--rem-px) / var(--rem-base) * 1rem);
+	--em: calc(var(--em-px) / var(--em-base, 16) * 1em);
+	--rem: calc(var(--rem-px) / var(--rem-base, 16) * 1rem);
 }
 
 .gap {
