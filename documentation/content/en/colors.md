@@ -1,8 +1,8 @@
 ---
 title: Colors
 description: ""
-position: 2
-category: CSS
+position: 5
+category: Colors
 
 grays: {
 	head: ["Class", "value", "hex", ''],
