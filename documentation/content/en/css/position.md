@@ -38,10 +38,19 @@ tlrb: {
 
 Use `left-`,`right-`,`top-`,`bottom-` like this:
 
-````html
+```html
 <div class="left-" style="--left-pos>left: 0</div>
 
-You can use the `.absolute-children` class top apply position relative to an element and all of its direct children will be absolutely positioned.
+ or
+
+<div class="my-class right-">right: 0</div>
+
+.my-class {
+	--right-: right: 50px;
+}
+```
+
+You can use the `.absolute-children` class to apply position relative to an element and all of its direct children will be absolutely positioned.
 
 ```css
 .absolute-children {
@@ -50,4 +59,4 @@ You can use the `.absolute-children` class top apply position relative to an ele
 .absolute-children > * {
 	position: absolute;
 }
-````
+```
