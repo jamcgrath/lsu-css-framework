@@ -39,15 +39,13 @@ tlrb: {
 Use `left-`,`right-`,`top-`,`bottom-` like this:
 
 ```html
-<div class="left-" style="--left-pos>left: 0</div>
+<div class="left-" style="--left-pos: 10px"></div>
 
- or
+or
 
-<div class="my-class right-">right: 0</div>
+<div class="my-class right-"></div>
 
-.my-class {
-	--right-: right: 50px;
-}
+.my-class { --right-: right: 50px; }
 ```
 
 You can use the `.absolute-children` class to apply position relative to an element and all of its direct children will be absolutely positioned.
