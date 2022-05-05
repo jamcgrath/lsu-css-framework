@@ -19,3 +19,32 @@
 .absolute-children > * {
 	position: absolute;
 }
+
+.left-0 {
+	left: 0;
+}
+.right-0 {
+	right: 0;
+}
+.top-0 {
+	top: 0;
+}
+.bottom-0 {
+	bottom: 0;
+}
+.left- {
+	--left-pos: 0;
+	left: var(--left-pos, 0);
+}
+.right- {
+	--right-pos: 0;
+	right: var(--right-pos, 0);
+}
+.top- {
+	--top-pos: 0;
+	top: var(--top-pos, 0);
+}
+.bottom- {
+	--bottom-pos: 0;
+	bottom: var(--bottom-pos, 0);
+}
