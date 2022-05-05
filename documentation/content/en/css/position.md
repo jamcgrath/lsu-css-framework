@@ -38,15 +38,27 @@ tlrb: {
 
 Use `left-`,`right-`,`top-`,`bottom-` like this:
 
+<!--prettier-ignore-->
+<code-group>
+<code-block label="Inline" active>
+
 ```html
-<div class="left-" style="--left-pos: 10px"></div>
+<div class="left-" style="--left-: 10px"></div>
+```
 
-or
+</code-block>
+<code-block label="CSS">
 
+```css
 <div class="my-class right-"></div>
 
-.my-class { --right-: right: 50px; }
+.my-class {
+	--right-: right: 50px;
+}
 ```
+
+</code-block>
+</code-group>
 
 You can use the `.absolute-children` class to apply position relative to an element and all of its direct children will be absolutely positioned.
 
@@ -58,3 +70,33 @@ You can use the `.absolute-children` class to apply position relative to an elem
 	position: absolute;
 }
 ```
+
+## media queries
+
+Prefix `md-` or `lg-` for media query modifiers
+
+The `.left-`, `.right-`, `.top-`, `.bottom-` classes rely on css custom properties and fallback value to allow it to work across media queries
+
+<code-group>
+<code-block label="Inline" active>
+
+<!-- prettier-ignore -->
+```html
+<div class="left-"style="--left-: 10px; --md-left-: 20px --lg-left-: 30px"></div>
+```
+
+</code-block>
+<code-block label="CSS">
+
+```css
+<div class="my-class right-"></div>
+
+.my-class {
+	--right-: right: 50px;
+	--md-right-: right: 20px;
+	--lg-right-: right: 30px;
+}
+```
+
+</code-block>
+</code-group>

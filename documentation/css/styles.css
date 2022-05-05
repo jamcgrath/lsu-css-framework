@@ -19,9 +19,9 @@ main > .flex > aside + .flex > div {
 	width: 100%;
 }
 
-.nuxt-content-highlight {
+/* .nuxt-content-highlight {
 	max-width: 1200px;
-}
+} */
 .scrollactive-nav li {
 	white-space: nowrap;
 }
