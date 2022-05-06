@@ -28,7 +28,7 @@
 							></button>
 						</template>
 						<button
-							v-else
+							v-else-if="cell.length > 0"
 							v-html="cell"
 							@click="copyToClipboard(cell)"
 							class="copy-button block px-1"
