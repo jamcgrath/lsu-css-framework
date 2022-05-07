@@ -116,3 +116,11 @@ gapy: {
 <c-table pn="gapy"></c-table>
 
 \* Gap can also be used with flex box. `grid-gap` has been deprecated in CSS grid therefore we use `gap` instead.
+
+## media queries
+
+Prefix md- or lg- for media query modifiers
+
+```html
+<div class="gap-5 md-gap-10 lg-gap-20"></div>
+```
