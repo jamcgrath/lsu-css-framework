@@ -45,20 +45,9 @@ rootVars: {
 	rows: [
 		["--base-fs: 16"],
 		["--base-space: 4"],
-		["--em-px: 16"],
-		["--em-base: 16"],
-		["--rem-px: 16"],
-		["--rem-base: 16"],
 	]
 }
 
-remEmVars: {
-	head: ['Property'],
-	rows: [
-		["--em: calc(var(--em-px) / var(--em-base, 16) * 1em)"],
-		["--rem: calc(var(--rem-px) / var(--rem-base, 16) * 1rem)"]
-	]
-}
 ---
 
 ## Custom Property List
@@ -78,18 +67,6 @@ You can overide the value of `--space-**` by changing the `--base-fs` variable.
 }
 ```
 
-## Root
+## Root Variables
 
 <c-table pn="rootVars"></c-table>
-
-## Rem & Em
-
-<c-table pn="remEmVars"></c-table>
-
-```css
-.myclass {
-	--em-px: 24; // 24px
-	--em-base: 14; // 16px inherited from root
-	padding: var(--em);
-}
-```
