@@ -738,6 +738,10 @@
 	margin-right: var(--space-10px);
 }
 
+.m- {
+	margin: var(--m-, 0); /* 0 is default value for margin */
+}
+
 @media (min-width: 40em) {
 	.md-m-auto {
 		margin: auto;
@@ -1242,6 +1246,10 @@
 	}
 	.md-mr-20 {
 		margin-right: var(--space-20);
+	}
+
+	.m- {
+		margin: var(--md-m-, var(--m-));
 	}
 }
 
@@ -1748,5 +1756,8 @@
 	}
 	.lg-mr-20 {
 		margin-right: var(--space-20);
+	}
+	.m- {
+		margin: var(--lg-m-, var(--md-m-, var(--m-, 0)));
 	}
 }

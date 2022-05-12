@@ -300,6 +300,8 @@ margintop: {
 
 <c-table pn="marginbottom"></c-table>
 
+## Custom Margins
+
 ## Media Queries
 
 Prefix `sm-`, `md-` or `lg-` for media query modifiers

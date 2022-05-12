@@ -30,3 +30,8 @@
 	border-top: var(--border-width) var(--border-style) var(--border-color);
 	border-bottom: var(--border-width) var(--border-style) var(--border-color);
 }
+.border-none {
+	--border-width: 0;
+	--border-color: transparent;
+	--border-style: none;
+}

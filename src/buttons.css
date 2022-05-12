@@ -76,3 +76,8 @@ button[disabled] {
 	--btn-border-width: 0;
 	--btn-bg: var(--color-brand-canary);
 }
+.btn-border-none {
+	--btn-border-color: transparent;
+	--btn-border-style: none;
+	--btn-border-width: 0;
+}
