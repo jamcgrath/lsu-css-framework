@@ -120,8 +120,6 @@ marginy: {
 		["my-10px",["margin-top: var(--space-10px)","margin-bottom: var(--space-10px)"],"","10px"],
 	]
 }
-
-
 marginleft: {
 	head: ["Class", "value", "rem", "px"],
 	rows: [
@@ -271,7 +269,15 @@ margintop: {
 		["mb-8px","margin-bottom: var(--space-8px)","","8px"],
 		["mb-9px","margin-bottom: var(--space-9px)","","9px"],
 		["mb-10px","margin-bottom: var(--space-10px)","","10px"]
-	]}
+	]
+}
+margincustom: {
+	head: ["Class", "value"],
+	rows: [
+		["m-","margin: var(--lg-m-, var(--md-m-, var(--m-, 0)))"]
+	]
+}
+
 ---
 
 <c-table pn="margin"></c-table>
@@ -301,6 +307,8 @@ margintop: {
 <c-table pn="marginbottom"></c-table>
 
 ## Custom Margins
+
+<c-table pn="margincustom"></c-table>
 
 ## Media Queries
 
