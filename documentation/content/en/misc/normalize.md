@@ -1,7 +1,7 @@
 ---
 title: Normalize
 description: ""
-position: 100
+position: 70
 category: Miscellaneous
 ---
 

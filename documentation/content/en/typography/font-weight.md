@@ -1,7 +1,7 @@
 ---
 title: Font Weight
 description: ""
-position: 15
+position: 11
 category: Typography
 
 fontweight: {

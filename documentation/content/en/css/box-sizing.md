@@ -1,7 +1,7 @@
 ---
 title: Box Sizing
 description: ""
-position: 20
+position: 50
 category: CSS
 
 boxSizingData: {

@@ -1,11 +1,11 @@
 ---
 title: Typography vars
 description: ""
-position: 15
+position: 13
 category: Typography
 
 fsvar: {
-	header: ["Var", "rem","px"],
+	head: ["Var", "rem","px"],
 	rows: [
 		["--title-1","5rem","80px"],
 		["--title-2","4rem","64px"],
@@ -33,7 +33,7 @@ fsvar: {
 }
 
 fweight: {
-	header: ["var", "weight"],
+	head: ["var", "weight"],
 	rows: [
 		["--fw100","100"],
 		["--fw200","200"],
@@ -58,7 +58,7 @@ fweight: {
 }
 
 letterspace: {
-	header: ["var", "rem", "px"],
+	head: ["var", "rem", "px"],
 	rows: [
 		["--letter-spacing","",""],
 		["--letter-spacing-1","-0.0078125rem","-0.25px"],
@@ -72,7 +72,7 @@ letterspace: {
 }
 
 fontmisc: {
-	header: ["var", "value"],
+	head: ["var", "value"],
 	rows: [
 		["--inter","'Inter', sans-serif"],
 		["--line-height","1.3"]

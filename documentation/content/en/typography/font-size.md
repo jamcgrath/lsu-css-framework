@@ -1,7 +1,7 @@
 ---
 title: Font Size
 description: ""
-position: 15
+position: 10
 category: Typography
 
 fs: {

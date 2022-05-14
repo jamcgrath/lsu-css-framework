@@ -1,7 +1,7 @@
 ---
 title: Colors
 description: ""
-position: 5
+position: 20
 category: Colors
 
 grays: {

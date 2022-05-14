@@ -1,7 +1,7 @@
 ---
 title: Text Align
 description: ""
-position: 15
+position: 12
 category: Typography
 
 textalign: {

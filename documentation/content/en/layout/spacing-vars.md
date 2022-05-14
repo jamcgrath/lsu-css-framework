@@ -1,7 +1,7 @@
 ---
 title: Spacing Vars
 description:
-position: 1
+position: 32
 category: Spacing
 
 spacingVars: {

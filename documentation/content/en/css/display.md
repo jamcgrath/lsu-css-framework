@@ -1,7 +1,7 @@
 ---
 title: Display
 description: ""
-position: 20
+position: 50
 category: CSS
 
 display:

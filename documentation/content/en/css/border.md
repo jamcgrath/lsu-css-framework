@@ -1,7 +1,7 @@
 ---
 title: Border
 description: ""
-position: 20
+position: 50
 category: CSS
 
 borderData: {
