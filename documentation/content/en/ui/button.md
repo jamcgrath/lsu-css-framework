@@ -33,6 +33,20 @@ btnColors: {
 	]
 }
 
+btnborder: {
+	head: [Class, value],
+	rows: [
+		[
+			"btn-border-none",
+			[
+				"--btn-border-color: transparent",
+				"--btn-border-style: none",
+				"--btn-border-width: 0",
+			]
+		]
+	]
+}
+
 ---
 
 ## Default
@@ -46,6 +60,10 @@ btnColors: {
 ## Colors
 
 <c-table pn="btnColors"></c-table>
+
+## Border
+
+<c-table pn="btnborder"></c-table>
 
 ## Custom Properties
 
