@@ -30,13 +30,13 @@ overflow: {
 
 ## Hide scrollbars
 
-Use `hide-scrollbars` to hide the scrollbars.
+Use `hide-scroll` to hide the scrollbars.
 
+<!-- prettier-ignore -->
 ```css
-/* hide scrollbars */
 .hide-scroll {
 	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+	scrollbar-width: none;    /* Firefox */
 }
 .hide-scroll::-webkit-scrollbar {
 	display: none; /* Chrome, Safari and Opera */
