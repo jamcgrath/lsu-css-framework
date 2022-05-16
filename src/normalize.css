@@ -33,6 +33,11 @@ body {
 	text-rendering: optimizeSpeed;
 	font-family: "Inter", sans-serif;
 	scrollbar-gutter: stable both-edges;
+	color: #272754;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
 }
 
 /**
