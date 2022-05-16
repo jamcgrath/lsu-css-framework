@@ -267,6 +267,12 @@ paddingtop: {
 		["pb-9px","padding-bottom: var(--space-9px)","","9px"],
 		["pb-10px","padding-bottom: var(--space-10px)","","10px"]
 	]}
+	paddingcustom: {
+	head: ["Class", "value"],
+	rows: [
+		["p-","margin: var(--lg-p-, var(--md-p-, var(--p-, 0)))"]
+	]
+}
 ---
 
 <c-table pn="padding"></c-table>
@@ -294,6 +300,10 @@ paddingtop: {
 ### padding-bottom
 
 <c-table pn="paddingbottom"></c-table>
+
+## Custom Padding
+
+<c-table pn="paddingcustom"></c-table>
 
 ## Media Queries
 

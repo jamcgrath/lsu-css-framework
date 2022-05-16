@@ -724,6 +724,9 @@
 .pl-10px {
 	padding-left: var(--space-10px);
 }
+.p- {
+	margin: var(--p-, 0);
+}
 
 @media (min-width: 40em) {
 	.md-p-0 {
@@ -1215,6 +1218,9 @@
 	.md-pl-20 {
 		padding-left: var(--space-20);
 	}
+	.p- {
+		margin: var(--md-p-, var(--p-));
+	}
 }
 
 @media (min-width: 64em) {
@@ -1693,5 +1699,8 @@
 	}
 	.lg-pl-20 {
 		padding-left: var(--space-20);
+	}
+	.p- {
+		margin: var(--lg-p-, var(--md-p-, var(--p-, 0)));
 	}
 }
