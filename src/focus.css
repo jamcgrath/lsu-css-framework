@@ -1,26 +1,22 @@
---root {
+:root {
 	--focus-outline-color: var(--color-state-hover);
 	--focus-outline-style: solid;
-	--focus-outline-width: 2px;
-	--focus-outline-offset: 2px;
+	--focus-outline-width: 1px;
+	--focus-outline-offset: 1px;
 }
 
 *:focus,
-.focus:focus {
+.focus {
 	outline: var(--focus-outline-width) var(--focus-outline-style)
 		var(--focus-outline-color);
 	outline-offset: var(--focus-outline-offset);
 }
+*:focus:not(:focus-visible) {
+	outline: none;
+}
 
-@supports selector(:focus-visible) {
-	*:focus,
-	.focus:focus {
-		outline: none;
-	}
-	*:focus-visible,
-	.focus:focus-visible {
-		outline: var(--focus-outline-width) var(--focus-outline-style)
-			var(--focus-outline-color);
-		outline-offset: var(--focus-outline-offset);
-	}
+*:focus-visible {
+	outline: var(--focus-outline-width) var(--focus-outline-style)
+		var(--focus-outline-color);
+	outline-offset: var(--focus-outline-offset);
 }

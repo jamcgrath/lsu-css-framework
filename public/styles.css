@@ -33,7 +33,7 @@ html {
 body {
 	min-height: 100vh;
 	text-rendering: optimizeSpeed;
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 /**
@@ -91,7 +91,7 @@ abbr[title] {
 	border-bottom: none; /* 1 */
 	text-decoration: underline; /* 2 */
 	-webkit-text-decoration: underline dotted;
-	        text-decoration: underline dotted; /* 2 */
+	text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -326,7 +326,7 @@ video {
 a {
 	--text-decoration: none;
 	-webkit-text-decoration: var(--text-decoration);
-	        text-decoration: var(--text-decoration);
+	text-decoration: var(--text-decoration);
 }
 
 /* Make images easier to work with */
@@ -367,9 +367,9 @@ html:focus-within {
 	*::before,
 	*::after {
 		-webkit-animation-duration: 0.01ms !important;
-		        animation-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
 		-webkit-animation-iteration-count: 1 !important;
-		        animation-iteration-count: 1 !important;
+		animation-iteration-count: 1 !important;
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}
@@ -605,7 +605,7 @@ html:focus-within {
 	background-color: var(--color-warning);
 }
 
-.bg-warning-light, 
+.bg-warning-light,
 .bg-opacity-warning {
 	background-color: #fff1e9;
 	background-color: var(--color-warning-light);
@@ -842,7 +842,7 @@ html:focus-within {
 	font-size: var(--title-1);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -855,7 +855,7 @@ html:focus-within {
 	font-size: var(--title-2);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -868,7 +868,7 @@ html:focus-within {
 	font-size: var(--title-3);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -882,7 +882,7 @@ html:focus-within {
 	font-size: var(--title-4);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -895,7 +895,7 @@ html:focus-within {
 	font-size: var(--title-5);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -907,7 +907,7 @@ html:focus-within {
 	font-size: var(--title-6);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -920,7 +920,7 @@ html:focus-within {
 	font-size: var(--title-7);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -931,7 +931,7 @@ html:focus-within {
 	font-size: var(--copy);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -978,7 +978,7 @@ html:focus-within {
 	font-size: var(--overline-big);
 	line-height: 1.3;
 	line-height: var(--line-height);
-	letter-spacing:  ;
+	letter-spacing: ;
 	letter-spacing: var(--letter-spacing);
 }
 
@@ -1000,7 +1000,7 @@ html:focus-within {
 		font-size: var(--title-1);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-h2,
@@ -1012,7 +1012,7 @@ html:focus-within {
 		font-size: var(--title-2);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-h3,
@@ -1024,7 +1024,7 @@ html:focus-within {
 		font-size: var(--title-3);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-h4,
@@ -1037,7 +1037,7 @@ html:focus-within {
 		font-size: var(--title-4);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-h5,
@@ -1049,7 +1049,7 @@ html:focus-within {
 		font-size: var(--title-5);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-h6,
@@ -1060,7 +1060,7 @@ html:focus-within {
 		font-size: var(--title-6);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-fs-lg,
@@ -1072,7 +1072,7 @@ html:focus-within {
 		font-size: var(--title-7);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-fs-md,
@@ -1082,7 +1082,7 @@ html:focus-within {
 		font-size: var(--copy);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-fs-normal,
@@ -1124,7 +1124,7 @@ html:focus-within {
 		font-size: var(--overline-big);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.md-fs-4xs,
@@ -1146,7 +1146,7 @@ html:focus-within {
 		font-size: var(--title-1);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-h2,
@@ -1158,7 +1158,7 @@ html:focus-within {
 		font-size: var(--title-2);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-h3,
@@ -1170,7 +1170,7 @@ html:focus-within {
 		font-size: var(--title-3);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-h4,
@@ -1183,7 +1183,7 @@ html:focus-within {
 		font-size: var(--title-4);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-h5,
@@ -1195,7 +1195,7 @@ html:focus-within {
 		font-size: var(--title-5);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-h6,
@@ -1206,7 +1206,7 @@ html:focus-within {
 		font-size: var(--title-6);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-fs-lg,
@@ -1218,7 +1218,7 @@ html:focus-within {
 		font-size: var(--title-7);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-fs-lg,
@@ -1228,7 +1228,7 @@ html:focus-within {
 		font-size: var(--copy);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-fs-normal,
@@ -1270,7 +1270,7 @@ html:focus-within {
 		font-size: var(--overline-big);
 		line-height: 1.3;
 		line-height: var(--line-height);
-		letter-spacing:  ;
+		letter-spacing: ;
 		letter-spacing: var(--letter-spacing);
 	}
 	.lg-fs-4xs,
@@ -1298,7 +1298,10 @@ html:focus-within {
 	);
 	--slope-vw: calc(var(--slope) * 100vw);
 	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
-	--clamp-fs: max(calc(var(--min-fs) * 1rem), min(var(--preferred-val), calc(var(--max-fs) * 1rem)));
+	--clamp-fs: max(
+		calc(var(--min-fs) * 1rem),
+		min(var(--preferred-val), calc(var(--max-fs) * 1rem))
+	);
 }
 
 .fs-inherit {
@@ -1474,6 +1477,17 @@ html:focus-within {
 	--rem-px: 16;
 	--rem-base: 16;
 
+	--space-1px: 1px;
+	--space-2px: 2px;
+	--space-3px: 3px;
+	--space-4px: 4px;
+	--space-5px: 5px;
+	--space-6px: 6px;
+	--space-7px: 7px;
+	--space-8px: 8px;
+	--space-9px: 9px;
+	--space-10px: 10px;
+
 	--space-1: calc((var(--base-space) * 1) / var(--base-fs) * 1rem);
 	--space-2: calc((var(--base-space) * 2) / var(--base-fs) * 1rem);
 	--space-3: calc((var(--base-space) * 3) / var(--base-fs) * 1rem);
@@ -1581,6 +1595,56 @@ html:focus-within {
 	gap: var(--space-16);
 }
 
+.gap-1px {
+	gap: 1px;
+	gap: var(--space-1px);
+}
+
+.gap-2px {
+	gap: 2px;
+	gap: var(--space-2px);
+}
+
+.gap-3px {
+	gap: 3px;
+	gap: var(--space-3px);
+}
+
+.gap-4px {
+	gap: 4px;
+	gap: var(--space-4px);
+}
+
+.gap-5px {
+	gap: 5px;
+	gap: var(--space-5px);
+}
+
+.gap-6px {
+	gap: 6px;
+	gap: var(--space-6px);
+}
+
+.gap-7px {
+	gap: 7px;
+	gap: var(--space-7px);
+}
+
+.gap-8px {
+	gap: 8px;
+	gap: var(--space-8px);
+}
+
+.gap-9px {
+	gap: 9px;
+	gap: var(--space-9px);
+}
+
+.gap-10px {
+	gap: 10px;
+	gap: var(--space-10px);
+}
+
 .gap-x-1 {
 	gap: 0 calc((4 * 1) / 16 * 1rem);
 	gap: 0 var(--space-1);
@@ -1661,6 +1725,56 @@ html:focus-within {
 	gap: 0 var(--space-16);
 }
 
+.gap-x-1px {
+	gap: 0 1px;
+	gap: 0 var(--space-1px);
+}
+
+.gap-x-2px {
+	gap: 0 2px;
+	gap: 0 var(--space-2px);
+}
+
+.gap-x-3px {
+	gap: 0 3px;
+	gap: 0 var(--space-3px);
+}
+
+.gap-x-4px {
+	gap: 0 4px;
+	gap: 0 var(--space-4px);
+}
+
+.gap-x-5px {
+	gap: 0 5px;
+	gap: 0 var(--space-5px);
+}
+
+.gap-x-6px {
+	gap: 0 6px;
+	gap: 0 var(--space-6px);
+}
+
+.gap-x-7px {
+	gap: 0 7px;
+	gap: 0 var(--space-7px);
+}
+
+.gap-x-8px {
+	gap: 0 8px;
+	gap: 0 var(--space-8px);
+}
+
+.gap-x-9px {
+	gap: 0 9px;
+	gap: 0 var(--space-9px);
+}
+
+.gap-x-10px {
+	gap: 0 10px;
+	gap: 0 var(--space-10px);
+}
+
 .gap-y-1 {
 	gap: calc((4 * 1) / 16 * 1rem) 0;
 	gap: var(--space-1) 0;
@@ -1739,6 +1853,56 @@ html:focus-within {
 .gap-y-16 {
 	gap: calc((4 * 16) / 16 * 1rem) 0;
 	gap: var(--space-16) 0;
+}
+
+.gap-y-1px {
+	gap: 1px 0;
+	gap: var(--space-1px) 0;
+}
+
+.gap-y-2px {
+	gap: 2px 0;
+	gap: var(--space-2px) 0;
+}
+
+.gap-y-3px {
+	gap: 3px 0;
+	gap: var(--space-3px) 0;
+}
+
+.gap-y-4px {
+	gap: 4px 0;
+	gap: var(--space-4px) 0;
+}
+
+.gap-y-5px {
+	gap: 5px 0;
+	gap: var(--space-5px) 0;
+}
+
+.gap-y-6px {
+	gap: 6px 0;
+	gap: var(--space-6px) 0;
+}
+
+.gap-y-7px {
+	gap: 7px 0;
+	gap: var(--space-7px) 0;
+}
+
+.gap-y-8px {
+	gap: 8px 0;
+	gap: var(--space-8px) 0;
+}
+
+.gap-y-9px {
+	gap: 9px 0;
+	gap: var(--space-9px) 0;
+}
+
+.gap-y-10px {
+	gap: 10px 0;
+	gap: var(--space-10px) 0;
 }
 
 /* margin  */
@@ -1831,6 +1995,56 @@ html:focus-within {
 	margin: var(--space-16);
 }
 
+.m-1px {
+	margin: 1px;
+	margin: var(--space-1px);
+}
+
+.m-2px {
+	margin: 2px;
+	margin: var(--space-2px);
+}
+
+.m-3px {
+	margin: 3px;
+	margin: var(--space-3px);
+}
+
+.m-4px {
+	margin: 4px;
+	margin: var(--space-4px);
+}
+
+.m-5px {
+	margin: 5px;
+	margin: var(--space-5px);
+}
+
+.m-6px {
+	margin: 6px;
+	margin: var(--space-6px);
+}
+
+.m-7px {
+	margin: 7px;
+	margin: var(--space-7px);
+}
+
+.m-8px {
+	margin: 8px;
+	margin: var(--space-8px);
+}
+
+.m-9px {
+	margin: 9px;
+	margin: var(--space-9px);
+}
+
+.m-10px {
+	margin: 10px;
+	margin: var(--space-10px);
+}
+
 .mx-0 {
 	margin-left: 0;
 	margin-right: 0;
@@ -1911,6 +2125,76 @@ html:focus-within {
 	margin-right: auto;
 }
 
+.mx-1px {
+	margin-left: 1px;
+	margin-left: var(--space-1px);
+	margin-right: 1px;
+	margin-right: var(--space-1px);
+}
+
+.mx-2px {
+	margin-left: 2px;
+	margin-left: var(--space-2px);
+	margin-right: 2px;
+	margin-right: var(--space-2px);
+}
+
+.mx-3px {
+	margin-left: 3px;
+	margin-left: var(--space-3px);
+	margin-right: 3px;
+	margin-right: var(--space-3px);
+}
+
+.mx-4px {
+	margin-left: 4px;
+	margin-left: var(--space-4px);
+	margin-right: 4px;
+	margin-right: var(--space-4px);
+}
+
+.mx-5px {
+	margin-left: 5px;
+	margin-left: var(--space-5px);
+	margin-right: 5px;
+	margin-right: var(--space-5px);
+}
+
+.mx-6px {
+	margin-left: 6px;
+	margin-left: var(--space-6px);
+	margin-right: 6px;
+	margin-right: var(--space-6px);
+}
+
+.mx-7px {
+	margin-left: 7px;
+	margin-left: var(--space-7px);
+	margin-right: 7px;
+	margin-right: var(--space-7px);
+}
+
+.mx-8px {
+	margin-left: 8px;
+	margin-left: var(--space-8px);
+	margin-right: 8px;
+	margin-right: var(--space-8px);
+}
+
+.mx-9px {
+	margin-left: 9px;
+	margin-left: var(--space-9px);
+	margin-right: 9px;
+	margin-right: var(--space-9px);
+}
+
+.mx-10px {
+	margin-left: 10px;
+	margin-left: var(--space-10px);
+	margin-right: 10px;
+	margin-right: var(--space-10px);
+}
+
 .my-0 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -1989,6 +2273,76 @@ html:focus-within {
 .my-auto {
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+.my-1px {
+	margin-top: 1px;
+	margin-top: var(--space-1px);
+	margin-bottom: 1px;
+	margin-bottom: var(--space-1px);
+}
+
+.my-2px {
+	margin-top: 2px;
+	margin-top: var(--space-2px);
+	margin-bottom: 2px;
+	margin-bottom: var(--space-2px);
+}
+
+.my-3px {
+	margin-top: 3px;
+	margin-top: var(--space-3px);
+	margin-bottom: 3px;
+	margin-bottom: var(--space-3px);
+}
+
+.my-4px {
+	margin-top: 4px;
+	margin-top: var(--space-4px);
+	margin-bottom: 4px;
+	margin-bottom: var(--space-4px);
+}
+
+.my-5px {
+	margin-top: 5px;
+	margin-top: var(--space-5px);
+	margin-bottom: 5px;
+	margin-bottom: var(--space-5px);
+}
+
+.my-6px {
+	margin-top: 6px;
+	margin-top: var(--space-6px);
+	margin-bottom: 6px;
+	margin-bottom: var(--space-6px);
+}
+
+.my-7px {
+	margin-top: 7px;
+	margin-top: var(--space-7px);
+	margin-bottom: 7px;
+	margin-bottom: var(--space-7px);
+}
+
+.my-8px {
+	margin-top: 8px;
+	margin-top: var(--space-8px);
+	margin-bottom: 8px;
+	margin-bottom: var(--space-8px);
+}
+
+.my-9px {
+	margin-top: 9px;
+	margin-top: var(--space-9px);
+	margin-bottom: 9px;
+	margin-bottom: var(--space-9px);
+}
+
+.my-10px {
+	margin-top: 10px;
+	margin-top: var(--space-10px);
+	margin-bottom: 10px;
+	margin-bottom: var(--space-10px);
 }
 
 .mt-0 {
@@ -2075,6 +2429,56 @@ html:focus-within {
 	margin-top: var(--space-16);
 }
 
+.mt-1px {
+	margin-top: 1px;
+	margin-top: var(--space-1px);
+}
+
+.mt-2px {
+	margin-top: 2px;
+	margin-top: var(--space-2px);
+}
+
+.mt-3px {
+	margin-top: 3px;
+	margin-top: var(--space-3px);
+}
+
+.mt-4px {
+	margin-top: 4px;
+	margin-top: var(--space-4px);
+}
+
+.mt-5px {
+	margin-top: 5px;
+	margin-top: var(--space-5px);
+}
+
+.mt-6px {
+	margin-top: 6px;
+	margin-top: var(--space-6px);
+}
+
+.mt-7px {
+	margin-top: 7px;
+	margin-top: var(--space-7px);
+}
+
+.mt-8px {
+	margin-top: 8px;
+	margin-top: var(--space-8px);
+}
+
+.mt-9px {
+	margin-top: 9px;
+	margin-top: var(--space-9px);
+}
+
+.mt-10px {
+	margin-top: 10px;
+	margin-top: var(--space-10px);
+}
+
 .mb-0 {
 	margin-bottom: 0;
 }
@@ -2157,6 +2561,56 @@ html:focus-within {
 .mb-16 {
 	margin-bottom: calc((4 * 16) / 16 * 1rem);
 	margin-bottom: var(--space-16);
+}
+
+.mb-1px {
+	margin-bottom: 1px;
+	margin-bottom: var(--space-1px);
+}
+
+.mb-2px {
+	margin-bottom: 2px;
+	margin-bottom: var(--space-2px);
+}
+
+.mb-3px {
+	margin-bottom: 3px;
+	margin-bottom: var(--space-3px);
+}
+
+.mb-4px {
+	margin-bottom: 4px;
+	margin-bottom: var(--space-4px);
+}
+
+.mb-5px {
+	margin-bottom: 5px;
+	margin-bottom: var(--space-5px);
+}
+
+.mb-6px {
+	margin-bottom: 6px;
+	margin-bottom: var(--space-6px);
+}
+
+.mb-7px {
+	margin-bottom: 7px;
+	margin-bottom: var(--space-7px);
+}
+
+.mb-8px {
+	margin-bottom: 8px;
+	margin-bottom: var(--space-8px);
+}
+
+.mb-9px {
+	margin-bottom: 9px;
+	margin-bottom: var(--space-9px);
+}
+
+.mb-10px {
+	margin-bottom: 10px;
+	margin-bottom: var(--space-10px);
 }
 
 .ml-0 {
@@ -2243,6 +2697,56 @@ html:focus-within {
 	margin-left: var(--space-16);
 }
 
+.ml-1px {
+	margin-left: 1px;
+	margin-left: var(--space-1px);
+}
+
+.ml-2px {
+	margin-left: 2px;
+	margin-left: var(--space-2px);
+}
+
+.ml-3px {
+	margin-left: 3px;
+	margin-left: var(--space-3px);
+}
+
+.ml-4px {
+	margin-left: 4px;
+	margin-left: var(--space-4px);
+}
+
+.ml-5px {
+	margin-left: 5px;
+	margin-left: var(--space-5px);
+}
+
+.ml-6px {
+	margin-left: 6px;
+	margin-left: var(--space-6px);
+}
+
+.ml-7px {
+	margin-left: 7px;
+	margin-left: var(--space-7px);
+}
+
+.ml-8px {
+	margin-left: 8px;
+	margin-left: var(--space-8px);
+}
+
+.ml-9px {
+	margin-left: 9px;
+	margin-left: var(--space-9px);
+}
+
+.ml-10px {
+	margin-left: 10px;
+	margin-left: var(--space-10px);
+}
+
 .mr-0 {
 	margin-right: 0;
 }
@@ -2325,6 +2829,56 @@ html:focus-within {
 .mr-16 {
 	margin-right: calc((4 * 16) / 16 * 1rem);
 	margin-right: var(--space-16);
+}
+
+.mr-1px {
+	margin-right: 1px;
+	margin-right: var(--space-1px);
+}
+
+.mr-2px {
+	margin-right: 2px;
+	margin-right: var(--space-2px);
+}
+
+.mr-3px {
+	margin-right: 3px;
+	margin-right: var(--space-3px);
+}
+
+.mr-4px {
+	margin-right: 4px;
+	margin-right: var(--space-4px);
+}
+
+.mr-5px {
+	margin-right: 5px;
+	margin-right: var(--space-5px);
+}
+
+.mr-6px {
+	margin-right: 6px;
+	margin-right: var(--space-6px);
+}
+
+.mr-7px {
+	margin-right: 7px;
+	margin-right: var(--space-7px);
+}
+
+.mr-8px {
+	margin-right: 8px;
+	margin-right: var(--space-8px);
+}
+
+.mr-9px {
+	margin-right: 9px;
+	margin-right: var(--space-9px);
+}
+
+.mr-10px {
+	margin-right: 10px;
+	margin-right: var(--space-10px);
 }
 
 .mx-em {
@@ -2479,6 +3033,56 @@ html:focus-within {
 	padding: var(--space-16);
 }
 
+.p-1px {
+	padding: 1px;
+	padding: var(--space-1px);
+}
+
+.p-2px {
+	padding: 2px;
+	padding: var(--space-2px);
+}
+
+.p-3px {
+	padding: 3px;
+	padding: var(--space-3px);
+}
+
+.p-4px {
+	padding: 4px;
+	padding: var(--space-4px);
+}
+
+.p-5px {
+	padding: 5px;
+	padding: var(--space-5px);
+}
+
+.p-6px {
+	padding: 6px;
+	padding: var(--space-6px);
+}
+
+.p-7px {
+	padding: 7px;
+	padding: var(--space-7px);
+}
+
+.p-8px {
+	padding: 8px;
+	padding: var(--space-8px);
+}
+
+.p-9px {
+	padding: 9px;
+	padding: var(--space-9px);
+}
+
+.p-10px {
+	padding: 10px;
+	padding: var(--space-10px);
+}
+
 .px-0 {
 	padding-left: 0;
 	padding-right: 0;
@@ -2594,6 +3198,76 @@ html:focus-within {
 	padding-left: var(--space-16);
 	padding-right: calc((4 * 16) / 16 * 1rem);
 	padding-right: var(--space-16);
+}
+
+.px-1px {
+	padding-left: 1px;
+	padding-left: var(--space-1px);
+	padding-right: 1px;
+	padding-right: var(--space-1px);
+}
+
+.px-2px {
+	padding-left: 2px;
+	padding-left: var(--space-2px);
+	padding-right: 2px;
+	padding-right: var(--space-2px);
+}
+
+.px-3px {
+	padding-left: 3px;
+	padding-left: var(--space-3px);
+	padding-right: 3px;
+	padding-right: var(--space-3px);
+}
+
+.px-4px {
+	padding-left: 4px;
+	padding-left: var(--space-4px);
+	padding-right: 4px;
+	padding-right: var(--space-4px);
+}
+
+.px-5px {
+	padding-left: 5px;
+	padding-left: var(--space-5px);
+	padding-right: 5px;
+	padding-right: var(--space-5px);
+}
+
+.px-6px {
+	padding-left: 6px;
+	padding-left: var(--space-6px);
+	padding-right: 6px;
+	padding-right: var(--space-6px);
+}
+
+.px-7px {
+	padding-left: 7px;
+	padding-left: var(--space-7px);
+	padding-right: 7px;
+	padding-right: var(--space-7px);
+}
+
+.px-8px {
+	padding-left: 8px;
+	padding-left: var(--space-8px);
+	padding-right: 8px;
+	padding-right: var(--space-8px);
+}
+
+.px-9px {
+	padding-left: 9px;
+	padding-left: var(--space-9px);
+	padding-right: 9px;
+	padding-right: var(--space-9px);
+}
+
+.px-10px {
+	padding-left: 10px;
+	padding-left: var(--space-10px);
+	padding-right: 10px;
+	padding-right: var(--space-10px);
 }
 
 .py-0 {
@@ -2713,6 +3387,76 @@ html:focus-within {
 	padding-bottom: var(--space-16);
 }
 
+.py-1px {
+	padding-top: 1px;
+	padding-top: var(--space-1px);
+	padding-bottom: 1px;
+	padding-bottom: var(--space-1px);
+}
+
+.py-2px {
+	padding-top: 2px;
+	padding-top: var(--space-2px);
+	padding-bottom: 2px;
+	padding-bottom: var(--space-2px);
+}
+
+.py-3px {
+	padding-top: 3px;
+	padding-top: var(--space-3px);
+	padding-bottom: 3px;
+	padding-bottom: var(--space-3px);
+}
+
+.py-4px {
+	padding-top: 4px;
+	padding-top: var(--space-4px);
+	padding-bottom: 4px;
+	padding-bottom: var(--space-4px);
+}
+
+.py-5px {
+	padding-top: 5px;
+	padding-top: var(--space-5px);
+	padding-bottom: 5px;
+	padding-bottom: var(--space-5px);
+}
+
+.py-6px {
+	padding-top: 6px;
+	padding-top: var(--space-6px);
+	padding-bottom: 6px;
+	padding-bottom: var(--space-6px);
+}
+
+.py-7px {
+	padding-top: 7px;
+	padding-top: var(--space-7px);
+	padding-bottom: 7px;
+	padding-bottom: var(--space-7px);
+}
+
+.py-8px {
+	padding-top: 8px;
+	padding-top: var(--space-8px);
+	padding-bottom: 8px;
+	padding-bottom: var(--space-8px);
+}
+
+.py-9px {
+	padding-top: 9px;
+	padding-top: var(--space-9px);
+	padding-bottom: 9px;
+	padding-bottom: var(--space-9px);
+}
+
+.py-10px {
+	padding-top: 10px;
+	padding-top: var(--space-10px);
+	padding-bottom: 10px;
+	padding-bottom: var(--space-10px);
+}
+
 .pt-0 {
 	padding-top: 0;
 }
@@ -2795,6 +3539,56 @@ html:focus-within {
 .pt-16 {
 	padding-top: calc((4 * 16) / 16 * 1rem);
 	padding-top: var(--space-16);
+}
+
+.pt-1px {
+	padding-top: 1px;
+	padding-top: var(--space-1px);
+}
+
+.pt-2px {
+	padding-top: 2px;
+	padding-top: var(--space-2px);
+}
+
+.pt-3px {
+	padding-top: 3px;
+	padding-top: var(--space-3px);
+}
+
+.pt-4px {
+	padding-top: 4px;
+	padding-top: var(--space-4px);
+}
+
+.pt-5px {
+	padding-top: 5px;
+	padding-top: var(--space-5px);
+}
+
+.pt-6px {
+	padding-top: 6px;
+	padding-top: var(--space-6px);
+}
+
+.pt-7px {
+	padding-top: 7px;
+	padding-top: var(--space-7px);
+}
+
+.pt-8px {
+	padding-top: 8px;
+	padding-top: var(--space-8px);
+}
+
+.pt-9px {
+	padding-top: 9px;
+	padding-top: var(--space-9px);
+}
+
+.pt-10px {
+	padding-top: 10px;
+	padding-top: var(--space-10px);
 }
 
 .pr-0 {
@@ -2881,6 +3675,56 @@ html:focus-within {
 	padding-right: var(--space-16);
 }
 
+.pr-1px {
+	padding-right: 1px;
+	padding-right: var(--space-1px);
+}
+
+.pr-2px {
+	padding-right: 2px;
+	padding-right: var(--space-2px);
+}
+
+.pr-3px {
+	padding-right: 3px;
+	padding-right: var(--space-3px);
+}
+
+.pr-4px {
+	padding-right: 4px;
+	padding-right: var(--space-4px);
+}
+
+.pr-5px {
+	padding-right: 5px;
+	padding-right: var(--space-5px);
+}
+
+.pr-6px {
+	padding-right: 6px;
+	padding-right: var(--space-6px);
+}
+
+.pr-7px {
+	padding-right: 7px;
+	padding-right: var(--space-7px);
+}
+
+.pr-8px {
+	padding-right: 8px;
+	padding-right: var(--space-8px);
+}
+
+.pr-9px {
+	padding-right: 9px;
+	padding-right: var(--space-9px);
+}
+
+.pr-10px {
+	padding-right: 10px;
+	padding-right: var(--space-10px);
+}
+
 .pb-0 {
 	padding-bottom: 0;
 }
@@ -2965,6 +3809,56 @@ html:focus-within {
 	padding-bottom: var(--space-16);
 }
 
+.pb-1px {
+	padding-bottom: 1px;
+	padding-bottom: var(--space-1px);
+}
+
+.pb-2px {
+	padding-bottom: 2px;
+	padding-bottom: var(--space-2px);
+}
+
+.pb-3px {
+	padding-bottom: 3px;
+	padding-bottom: var(--space-3px);
+}
+
+.pb-4px {
+	padding-bottom: 4px;
+	padding-bottom: var(--space-4px);
+}
+
+.pb-5px {
+	padding-bottom: 5px;
+	padding-bottom: var(--space-5px);
+}
+
+.pb-6px {
+	padding-bottom: 6px;
+	padding-bottom: var(--space-6px);
+}
+
+.pb-7px {
+	padding-bottom: 7px;
+	padding-bottom: var(--space-7px);
+}
+
+.pb-8px {
+	padding-bottom: 8px;
+	padding-bottom: var(--space-8px);
+}
+
+.pb-9px {
+	padding-bottom: 9px;
+	padding-bottom: var(--space-9px);
+}
+
+.pb-10px {
+	padding-bottom: 10px;
+	padding-bottom: var(--space-10px);
+}
+
 .pl-0 {
 	padding-left: 0;
 }
@@ -3047,6 +3941,56 @@ html:focus-within {
 .pl-16 {
 	padding-left: calc((4 * 16) / 16 * 1rem);
 	padding-left: var(--space-16);
+}
+
+.pl-1px {
+	padding-left: 1px;
+	padding-left: var(--space-1px);
+}
+
+.pl-2px {
+	padding-left: 2px;
+	padding-left: var(--space-2px);
+}
+
+.pl-3px {
+	padding-left: 3px;
+	padding-left: var(--space-3px);
+}
+
+.pl-4px {
+	padding-left: 4px;
+	padding-left: var(--space-4px);
+}
+
+.pl-5px {
+	padding-left: 5px;
+	padding-left: var(--space-5px);
+}
+
+.pl-6px {
+	padding-left: 6px;
+	padding-left: var(--space-6px);
+}
+
+.pl-7px {
+	padding-left: 7px;
+	padding-left: var(--space-7px);
+}
+
+.pl-8px {
+	padding-left: 8px;
+	padding-left: var(--space-8px);
+}
+
+.pl-9px {
+	padding-left: 9px;
+	padding-left: var(--space-9px);
+}
+
+.pl-10px {
+	padding-left: 10px;
+	padding-left: var(--space-10px);
 }
 
 .px-em {
@@ -5770,10 +6714,7 @@ html:focus-within {
 }
 
 .grid-column {
-	grid-template-columns: repeat(
-		auto-fit,
-		minmax(0, 1fr)
-	);
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 	grid-template-columns: repeat(
 		var(--grid-repeat),
 		minmax(var(--grid-col-min), var(--grid-col-max))
@@ -5781,10 +6722,7 @@ html:focus-within {
 }
 
 .grid-row {
-	grid-template-rows: repeat(
-		auto-fit,
-		minmax(1fr, 1fr)
-	);
+	grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
 	grid-template-rows: repeat(
 		var(--grid-repeat),
 		minmax(var(--grid-row-min), var(--grid-row-max))
@@ -5964,7 +6902,7 @@ html:focus-within {
 	position: absolute;
 }
 
-.box-border	{
+.box-border {
 	box-sizing: border-box;
 }
 
@@ -6009,9 +6947,9 @@ html:focus-within {
 	border-radius: var(--badge-border-radius);
 	text-decoration: none;
 	-webkit-text-decoration: var(--badge-text-decoration);
-	        text-decoration: var(--badge-text-decoration);
+	text-decoration: var(--badge-text-decoration);
 	cursor: pointer;
-	cursor: var(--badge-cursor); 
+	cursor: var(--badge-cursor);
 }
 
 .badge-small {
@@ -6145,9 +7083,9 @@ html:focus-within {
 .circle {
 	border-radius: 50%;
 	aspect-ratio: 1;
-	width:  ;
+	width: ;
 	width: var(--circle-width);
-	height:  ;
+	height: ;
 	height: var(--circle-width);
 }
 
@@ -6197,8 +7135,7 @@ button {
 	justify-content: center;
 	padding: calc((4 * 2) / 16 * 1rem) calc((4 * 3) / 16 * 1rem);
 	padding: var(--btn-padding-x) var(--btn-padding-y);
-	border: 1px hsl(240, 37%, 24%)
-		solid;
+	border: 1px hsl(240, 37%, 24%) solid;
 	border: var(--btn-border-width) var(--btn-border-color)
 		var(--btn-border-style);
 	border-radius: 100px;
@@ -6218,7 +7155,7 @@ button {
 	letter-spacing: 2px;
 	text-decoration: none;
 	-webkit-text-decoration: var(--btn-text-decoration);
-	        text-decoration: var(--btn-text-decoration);
+	text-decoration: var(--btn-text-decoration);
 	cursor: pointer;
 	cursor: var(--btn-cursor);
 }
@@ -6423,39 +7360,39 @@ button[disabled] {
 	background-image: var(--list-check-svg-lg);
 }
 
-.overflow-auto	{
+.overflow-auto {
 	overflow: auto;
 }
 
-.overflow-x-auto	{
+.overflow-x-auto {
 	overflow-x: auto;
 }
 
-.overflow-y-auto	{
+.overflow-y-auto {
 	overflow-y: auto;
 }
 
-.overflow-scroll	{
+.overflow-scroll {
 	overflow: scroll;
 }
 
-.overflow-x-scroll	{
+.overflow-x-scroll {
 	overflow-x: scroll;
 }
 
-.overflow-y-scroll	{
+.overflow-y-scroll {
 	overflow-y: scroll;
 }
 
-.overflow-hidden	{
+.overflow-hidden {
 	overflow: hidden;
 }
 
-.overflow-x-hidden	{
+.overflow-x-hidden {
 	overflow-x: hidden;
 }
 
-.overflow-y-hidden	{
+.overflow-y-hidden {
 	overflow-y: hidden;
 }
 
@@ -6476,33 +7413,33 @@ button[disabled] {
 .hide-scroll {
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
-  }
+}
 
 .hide-scroll::-webkit-scrollbar {
 	display: none; /* Chrome, Safari and Opera */
 }
 
-.z-0	{
+.z-0 {
 	z-index: 0;
 }
 
-.z-1	{
+.z-1 {
 	z-index: 1;
 }
 
-.z-10	{
+.z-10 {
 	z-index: 10;
 }
 
-.z-20	{
+.z-20 {
 	z-index: 20;
 }
 
-.z-30	{
+.z-30 {
 	z-index: 30;
 }
 
-.z-40	{
+.z-40 {
 	z-index: 40;
 }
 
@@ -6518,11 +7455,11 @@ button[disabled] {
 	z-index: 500;
 }
 
-.z-negative	{
+.z-negative {
 	z-index: -1;
 }
 
-.z-blowout	{
+.z-blowout {
 	z-index: 1000000;
 }
 
@@ -6557,7 +7494,7 @@ button[disabled] {
 	text-align: center;
 	text-decoration: none;
 	-webkit-text-decoration: var(--bc-text-decoration);
-	        text-decoration: var(--bc-text-decoration);
+	text-decoration: var(--bc-text-decoration);
 }
 
 .breadcrumb-dark {

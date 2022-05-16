@@ -19,8 +19,6 @@
 	max-width: 1024px;
 }
 
-
-
 /* break child element out of parent container */
 .fullwidth {
 	width: 100vw;
@@ -29,4 +27,15 @@
 	right: 50%;
 	margin-left: -50vw;
 	margin-right: -50vw;
+}
+
+@media (min-width: 64em) {
+	.fullwidth {
+		width: calc(100vw - 16px);
+	}
+	@supports (scrollbar-gutter: stable both-edges) {
+		.fullwidth {
+			width: 100vw;
+		}
+	}
 }

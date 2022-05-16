@@ -1,0 +1,27 @@
+body .container {
+	max-width: 100%;
+}
+main > .flex {
+	display: grid;
+	grid-template-columns: minmax(10%, 15%) 1fr;
+}
+main > .flex > aside {
+	min-width: 100%;
+}
+
+main > .flex > aside + .flex {
+	display: grid;
+	grid-template-columns: 1fr minmax(10%, 15%);
+	width: 100%;
+}
+
+main > .flex > aside + .flex > div {
+	width: 100%;
+}
+
+/* .nuxt-content-highlight {
+	max-width: 1200px;
+} */
+.scrollactive-nav li {
+	white-space: nowrap;
+}

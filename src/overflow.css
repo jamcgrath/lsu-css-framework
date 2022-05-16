@@ -1,28 +1,28 @@
-.overflow-auto	{
+.overflow-auto {
 	overflow: auto;
 }
-.overflow-x-auto	{
+.overflow-x-auto {
 	overflow-x: auto;
 }
-.overflow-y-auto	{
+.overflow-y-auto {
 	overflow-y: auto;
 }
-.overflow-scroll	{
+.overflow-scroll {
 	overflow: scroll;
 }
-.overflow-x-scroll	{
+.overflow-x-scroll {
 	overflow-x: scroll;
 }
-.overflow-y-scroll	{
+.overflow-y-scroll {
 	overflow-y: scroll;
 }
-.overflow-hidden	{
+.overflow-hidden {
 	overflow: hidden;
 }
-.overflow-x-hidden	{
+.overflow-x-hidden {
 	overflow-x: hidden;
 }
-.overflow-y-hidden	{
+.overflow-y-hidden {
 	overflow-y: hidden;
 }
 .overflow-visible {
@@ -34,12 +34,21 @@
 .overflow-y-visible {
 	overflow-y: visible;
 }
+.overflow-clip {
+	overflow: clip;
+}
+.overflow-x-clip {
+	overflow-x: clip;
+}
+.overflow-y-clip {
+	overflow-y: clip;
+}
 
 /* hide scrollbars */
 .hide-scroll {
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
-  }
+}
 .hide-scroll::-webkit-scrollbar {
 	display: none; /* Chrome, Safari and Opera */
 }
