@@ -28,3 +28,7 @@ Note that the `--circle-width` has no value. You will have to set it to make a c
 
 .my-circle.circle { --circle-width: 100px; }
 ```
+
+## Media Queries
+
+Prefix `sm-`, `md-` or `lg-` for media query modifiers

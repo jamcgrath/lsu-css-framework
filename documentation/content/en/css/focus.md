@@ -20,12 +20,14 @@ category: CSS
 	outline: var(--focus-outline-width) var(--focus-outline-style) var(--focus-outline-color);
 	outline-offset: var(--focus-outline-offset);
 }
-*:focus:not(:focus-visible) {
-	outline: none;
-}
 
-*:focus-visible {
-	outline: var(--focus-outline-width) var(--focus-outline-style) var(--focus-outline-color);
-	outline-offset: var(--focus-outline-offset);
+@supports selector(:focus-visible) {
+	*:focus {
+		outline: 0;
+	}
+	*:focus-visible {
+		outline: var(--focus-outline-width) var(--focus-outline-style) var(--focus-outline-color);
+		outline-offset: var(--focus-outline-offset);
+	}
 }
 ```
