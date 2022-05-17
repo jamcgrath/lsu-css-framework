@@ -61,9 +61,9 @@ letterspace: {
 	head: ["var", "rem", "px"],
 	rows: [
 		["--letter-spacing","",""],
-		["--letter-spacing-1","-0.0078125rem","-0.25px"],
-		["--letter-spacing-2","-0.015625rem","-0.5px"],
-		["--letter-spacing-3","-0.03125rem","-0.75px"],
+		["--letter-spacing-1"," -0.015625rem","-0.25px"],
+		["--letter-spacing-2","-0.03125rem","-0.5px"],
+		["--letter-spacing-3","-0.046875rem","-0.75px"],
 		["--letter-spacing-4","-0.0625rem","-1px"],
 		["--letter-spacing-5","-0.078125rem","-1.25px"],
 		["--letter-spacing-6","-0.09375rem","-1.5px"],
