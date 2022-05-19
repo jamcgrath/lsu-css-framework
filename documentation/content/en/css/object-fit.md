@@ -7,9 +7,9 @@ category: CSS
 objfit: {
     head: ['class', 'value'],
     rows: [
-        ["of-cover",["--of: cover","object-fit: var(--of)"],
-        ["of-contain",["--of: contain","object-fit: var(--of)"],
-        ["of-scale-down",["--of: scale-down","object-fit: var(--of)"],
+        ["of-cover",["--of: cover","object-fit: var(--of)"]],
+        ["of-contain",["--of: contain","object-fit: var(--of)"]],
+        ["of-scale-down",["--of: scale-down","object-fit: var(--of)"]],
     ]
 }
 ---
