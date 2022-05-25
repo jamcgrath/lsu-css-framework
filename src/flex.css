@@ -94,6 +94,20 @@
 .flex-none {
 	flex: none;
 }
+
+.align-self-stretch {
+	align-self: stretch;
+}
+.align-self-start {
+	align-self: start;
+}
+.align-self-end {
+	align-self: end;
+}
+.align-self-center {
+	align-self: center;
+}
+
 @media (min-width: 40em) {
 	.md-flex {
 		display: flex;
@@ -170,6 +184,18 @@
 	}
 	.md-flex-none {
 		flex: none;
+	}
+	.md-align-self-stretch {
+		align-self: stretch;
+	}
+	.md-align-self-start {
+		align-self: start;
+	}
+	.md-align-self-end {
+		align-self: end;
+	}
+	.md-align-self-center {
+		align-self: center;
 	}
 }
 
@@ -249,5 +275,17 @@
 	}
 	.lg-flex-none {
 		flex: none;
+	}
+	.lg-align-self-stretch {
+		align-self: stretch;
+	}
+	.lg-align-self-start {
+		align-self: start;
+	}
+	.lg-align-self-end {
+		align-self: end;
+	}
+	.lg-align-self-center {
+		align-self: center;
 	}
 }

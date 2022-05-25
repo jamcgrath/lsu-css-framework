@@ -66,6 +66,16 @@ flexnum: {
 		["flex-none", "flex: none"]
 	]
 }
+
+alignSelf: {
+	head: ["Class", "value"],
+	rows: [
+		["align-self-start", "align-self: start"],
+		["align-self-end", "align-self: end"],
+		["align-self-center", "align-self: center"],
+		["align-self-stretch", "align-self: stretch"]
+	]
+}
 ---
 
 ## Display
@@ -87,6 +97,10 @@ flexnum: {
 ## Flex
 
 <c-table pn="flexnum"></c-table>
+
+## Align Self
+
+<c-table pn="alignSelf"></c-table>
 
 ## Media Queries
 
