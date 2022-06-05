@@ -10,3 +10,11 @@
     --of: scale-down;
     object-fit: var(--of);
 }
+.of-fill {
+    --of: fill;
+    object-fit: var(--of);
+}
+.of-none {
+    --of: none;
+    object-fit: var(--of);
+}
