@@ -408,8 +408,8 @@
 
 .fs-scale {
 	--root-fs: 16;
-	--fs-min: 1rem;
-	--fs-max: 2rem;
+	--min-fs: 1rem;
+	--max-fs: 2rem;
 	--mq1: 320;
 	--mq2: 800;
 	--min-width: calc(var(--mq1) / var(--root-fs));
