@@ -171,3 +171,73 @@ fs: {
 ## Media queries
 
 Prefix `sm-`, `md-` or `lg-` for media query modifiers
+
+## the magic 🧙‍♂️
+
+⚠️ **USE AT YOUR OWN RISK** ⚠️
+
+The magic will auto scale a font size based on a min and max font size. All values supplied need to be unitless. `--max-fs` and `--min-fs` are unitless rems. `--mq1` and `--mq2` are unitless pixel values for min and max viewport size.
+
+```css
+.fs-scale {
+	--root-fs: 16;
+	--min-fs: 1;
+	--max-fs: 2;
+	--mq1: 300;
+	--mq2: 1024;
+	--min-width: calc(var(--mq1) / var(--root-fs));
+	--max-width: calc(var(--mq2) / var(--root-fs));
+	--slope: calc(
+		(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width))
+	);
+	--y-intersect: calc(
+		(calc(var(--min-width) * -1) * var(--slope) + var(--min-fs))
+	);
+	--slope-vw: calc(var(--slope) * 100vw);
+	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
+	--clamp-fs: clamp(
+		calc(var(--min-fs) * 1rem),
+		var(--preferred-val),
+		calc(var(--max-fs) * 1rem)
+	);
+}
+
+.fs-scale {
+	font-size: calc(var(--min-fs) * 1rem);
+}
+
+@media (min-width: 64em) {
+	.fs-scale {
+		font-size: calc(var(--max-fs) * 1rem);
+	}
+}
+
+@media (min-width: 1px) {
+	@supports (font-size: clamp(1px, 2px, 3px)) {
+		.fs-scale {
+			font-size: var(--clamp-fs);
+		}
+	}
+}
+```
+
+<!--prettier-ignore-->
+<code-group>
+<code-block label="HTML" active>
+
+```html
+<h1 class="title fs-scale">Title</h1>
+```
+
+</code-block>
+<code-block label="CSS">
+
+```css
+.title.fs-scale {
+	--min-fs: 1.5;
+	--max-fs: 3;
+}
+```
+
+</code-block>
+</code-group>

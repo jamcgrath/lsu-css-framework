@@ -406,29 +406,6 @@
 	}
 }
 
-.fs-scale {
-	--root-fs: 16;
-	--min-fs: 1rem;
-	--max-fs: 2rem;
-	--mq1: 320;
-	--mq2: 800;
-	--min-width: calc(var(--mq1) / var(--root-fs));
-	--max-width: calc(var(--mq2) / var(--root-fs));
-	--slope: calc(
-		(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width))
-	);
-	--y-intersect: calc(
-		(calc(var(--min-width) * -1) * var(--slope) + var(--min-fs))
-	);
-	--slope-vw: calc(var(--slope) * 100vw);
-	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
-	--clamp-fs: clamp(
-		calc(var(--min-fs) * 1rem),
-		var(--preferred-val),
-		calc(var(--max-fs) * 1rem)
-	);
-}
-
 .fs-inherit {
 	font-size: inherit;
 }
@@ -539,5 +516,48 @@
 	}
 	.lg-text-right {
 		text-align: right;
+	}
+}
+
+/* the magic */
+
+.fs-scale {
+	--root-fs: 16;
+	--min-fs: 1;
+	--max-fs: 2;
+	--mq1: 300;
+	--mq2: 1024;
+	--min-width: calc(var(--mq1) / var(--root-fs));
+	--max-width: calc(var(--mq2) / var(--root-fs));
+	--slope: calc(
+		(var(--max-fs) - var(--min-fs)) / (var(--max-width) - var(--min-width))
+	);
+	--y-intersect: calc(
+		(calc(var(--min-width) * -1) * var(--slope) + var(--min-fs))
+	);
+	--slope-vw: calc(var(--slope) * 100vw);
+	--preferred-val: calc(calc(var(--y-intersect) * 1rem) + var(--slope-vw));
+	--clamp-fs: clamp(
+		calc(var(--min-fs) * 1rem),
+		var(--preferred-val),
+		calc(var(--max-fs) * 1rem)
+	);
+}
+
+.fs-scale {
+	font-size: calc(var(--min-fs) * 1rem);
+}
+
+@media (min-width: 64em) {
+	.fs-scale {
+		font-size: calc(var(--max-fs) * 1rem);
+	}
+}
+
+@media (min-width: 1px) {
+	@supports (font-size: clamp(1px, 2px, 3px)) {
+		.fs-scale {
+			font-size: var(--clamp-fs);
+		}
 	}
 }
