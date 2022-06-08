@@ -241,3 +241,5 @@ The magic will auto scale a font size based on a min and max font size. All valu
 
 </code-block>
 </code-group>
+
+Here's a working example on [codepen] (https://codepen.io/jamcgrath/pen/dydqQJG).
