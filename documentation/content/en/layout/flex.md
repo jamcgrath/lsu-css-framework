@@ -90,6 +90,10 @@ alignSelf: {
 
 <c-table pn="wrap"></c-table>
 
+## Justify
+
+<c-table pn="justify"></c-table>
+
 ## Align
 
 <c-table pn="align"></c-table>
